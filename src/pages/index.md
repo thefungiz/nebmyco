@@ -27,40 +27,19 @@ intro:
     - image: /img/about-us.png
       title: About
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit
-        tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
-        tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus
-        libero vel ligula dapibus, ac convallis felis gravida. 
+        Learn about the history, mission, and goals of our group.
     - image: /img/20181002_131142.jpg
       title: Join
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit
-        tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
-        tempor id at diam. Nulla lobortis a ex eget porttitor. 
+        Join out communication channels to learn about upcoming meetings and ways you can get involved.
     - image: /img/20190701_125249.jpg
       title: Community
       text: >
-        Community. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-        blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
-        ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam
-        maximus libero vel ligula dapibus, ac convallis felis gravida. 
+        Check out the group's activities and upcoming events.
     - image: /img/img_2911.jpg
       title: Education
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit
-        tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
-        tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus
-        libero vel ligula dapibus, ac convallis felis gravida. Vivamus augue
-        ligula, laoreet quis lectus ac, bibendum mollis metus. Maecenas in ex
-        porta, convallis risus tincidunt, tincidunt lorem. In hac habitasse
-        platea dictumst. Cras tincidunt, nunc ut vestibulum interdum, magna
-        sapien dignissim ipsum, in semper velit magna sed elit. Nullam
-        condimentum odio ac venenatis mattis. Vivamus dignissim fermentum velit
-        id tempor. Suspendisse sit amet lobortis arcu. Donec eleifend nisi
-        justo, vitae euismod orci molestie vel. Nam aliquam velit augue, ac
-        euismod erat dapibus ac. Integer aliquet ultricies nisi, posuere
-        interdum sapien efficitur vitae. In blandit massa quis ullamcorper
-        luctus.
+        Articles on Nebraska fungi.
   heading: What we offer
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
     blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
