@@ -20,9 +20,8 @@ mainpitch:
     aliquam velit augue, ac euismod erat dapibus ac. Integer aliquet ultricies
     nisi, posuere interdum sapien efficitur vitae. In blandit massa quis
     ullamcorper luctus.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-  blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
-  tempor id at diam.
+description: We are a group of amateur mycology enthusiasts shooting to bring
+  the mushroom lovers together in our great state of Nebraska.
 intro:
   blurbs:
     - image: /img/about-us.png
@@ -32,20 +31,20 @@ intro:
         tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
         tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus
         libero vel ligula dapibus, ac convallis felis gravida. 
-    - image: /img/coffee-gear.png
+    - image: /img/20181002_131142.jpg
       title: Join
       text: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit
         tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
         tempor id at diam. Nulla lobortis a ex eget porttitor. 
-    - image: /img/tutorials.png
+    - image: /img/20190701_125249.jpg
       title: Community
       text: >
         Community. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
         blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
         ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam
         maximus libero vel ligula dapibus, ac convallis felis gravida. 
-    - image: /img/meeting-space.png
+    - image: /img/img_2911.jpg
       title: Education
       text: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit
