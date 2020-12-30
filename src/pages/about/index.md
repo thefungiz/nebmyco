@@ -1,12 +1,16 @@
 ---
 templateKey: about-page
 path: /about
-title: About our Group
+title: About the Nebraska Mycological Society
 ---
-### Mission Statement
+### Mission
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus libero vel ligula dapibus, ac convallis felis gravida. Vivamus augue ligula, laoreet quis lectus ac, bibendum mollis metus. Maecenas in ex porta, convallis risus tincidunt, tincidunt lorem. In hac habitasse platea dictumst. Cras tincidunt, nunc ut vestibulum interdum, magna sapien dignissim ipsum, in semper velit magna sed elit. Nullam condimentum odio ac venenatis mattis. Vivamus dignissim fermentum velit id tempor. Suspendisse sit amet lobortis arcu. Donec eleifend nisi justo, vitae euismod orci molestie vel. Nam aliquam velit augue, ac euismod erat dapibus ac. Integer aliquet ultricies nisi, posuere interdum sapien efficitur vitae. In blandit massa quis ullamcorper luctus.
+We are a mushroom club based out of Eastern Nebraska that is dedicated to the education, identification, and foraging of wild mushrooms. We are made up of fungi enthusiasts who share information about mushrooms through online forums, forays, classes and meetings. Join us at our next meeting or contact us to learn more! 
 
-### Contact Information
+### Vision
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus libero vel ligula dapibus, ac convallis felis gravida. Vivamus augue ligula, laoreet quis lectus ac, bibendum mollis metus. Maecenas in ex porta, convallis risus tincidunt, tincidunt lorem. In hac habitasse platea dictumst. Cras tincidunt, nunc ut vestibulum interdum, magna sapien dignissim ipsum, in semper velit magna sed elit. Nullam condimentum odio ac venenatis mattis. Vivamus dignissim fermentum velit id tempor. Suspendisse sit amet lobortis arcu. Donec eleifend nisi justo, vitae euismod orci molestie vel. Nam aliquam velit augue, ac euismod erat dapibus ac. Integer aliquet ultricies nisi, posuere interdum sapien efficitur vitae. In blandit massa quis ullamcorper luctus.
+Right now we are starting out, but we hope to be a reputable society someday. We have goals to eventually become a non-profit organization recognised by the North American Mycological Association.
+
+### History
+
+Started in December of 2020 by our co-founders Derek Zeller and Rebecca Chandler to bring together the fungi masters within the great state of Nebraska.
