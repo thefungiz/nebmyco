@@ -39,7 +39,7 @@ const Footer = class extends React.Component {
                         Join
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link className="navbar-item" to="/community">
                         Community
                       </Link>
@@ -48,13 +48,13 @@ const Footer = class extends React.Component {
                       <Link className="navbar-item" to="/eduction">
                         Education
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link className="navbar-item" to="/blog">
                         Blog
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -63,7 +63,7 @@ const Footer = class extends React.Component {
                       >
                         Admin
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </section>
               </div>
