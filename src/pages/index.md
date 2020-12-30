@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Nebraska Mycological Society
-image: /img/img_0472.jpg
+image: /img/img_0204.jpg
 heading: Our Community
 subheading: Fungi enthusiasts from the Cornhusker State
 mainpitch:
@@ -20,21 +20,24 @@ mainpitch:
     aliquam velit augue, ac euismod erat dapibus ac. Integer aliquet ultricies
     nisi, posuere interdum sapien efficitur vitae. In blandit massa quis
     ullamcorper luctus.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus
-    quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at
-    diam.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+  blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
+  tempor id at diam.
 intro:
   blurbs:
     - image: /img/about-us.png
       title: About
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus libero vel ligula dapibus, ac convallis felis gravida. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit
+        tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
+        tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus
+        libero vel ligula dapibus, ac convallis felis gravida. 
     - image: /img/coffee-gear.png
       title: Join
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-        blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
-        ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit
+        tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
+        tempor id at diam. Nulla lobortis a ex eget porttitor. 
     - image: /img/tutorials.png
       title: Community
       text: >
@@ -45,12 +48,12 @@ intro:
     - image: /img/meeting-space.png
       title: Education
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-        blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
-        ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam
-        maximus libero vel ligula dapibus, ac convallis felis gravida. Vivamus
-        augue ligula, laoreet quis lectus ac, bibendum mollis metus. Maecenas in
-        ex porta, convallis risus tincidunt, tincidunt lorem. In hac habitasse
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit
+        tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
+        tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus
+        libero vel ligula dapibus, ac convallis felis gravida. Vivamus augue
+        ligula, laoreet quis lectus ac, bibendum mollis metus. Maecenas in ex
+        porta, convallis risus tincidunt, tincidunt lorem. In hac habitasse
         platea dictumst. Cras tincidunt, nunc ut vestibulum interdum, magna
         sapien dignissim ipsum, in semper velit magna sed elit. Nullam
         condimentum odio ac venenatis mattis. Vivamus dignissim fermentum velit
