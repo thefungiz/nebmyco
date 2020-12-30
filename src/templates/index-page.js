@@ -22,20 +22,22 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        //backgroundAttachment: `fixed`,
       }}
     >
-      <div
+      {/* <div
         style={{
           display: 'flex',
-          height: '150px',
+          height: '100px',
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
         }}
-      >
+      > */}
         {/* <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
@@ -62,7 +64,7 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3> */}
-      </div>
+      {/* </div> */}
     </div>
     <section className="section section--gradient">
       <div className="container">
