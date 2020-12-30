@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Nebraska Mycological Society
 image: /img/img_0472.jpg
-heading: Great coffee with a conscience
+heading: Our Community
 subheading: Fungi enthusiasts from the Cornhusker State
 mainpitch:
   title: Who are we?
@@ -28,37 +28,42 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        About. 
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus libero vel ligula dapibus, ac convallis felis gravida. 
     - image: /img/coffee-gear.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Join Us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+        blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
+        ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. 
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Community. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+        blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
+        ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam
+        maximus libero vel ligula dapibus, ac convallis felis gravida. 
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Education. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+        blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
+        ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam
+        maximus libero vel ligula dapibus, ac convallis felis gravida. Vivamus
+        augue ligula, laoreet quis lectus ac, bibendum mollis metus. Maecenas in
+        ex porta, convallis risus tincidunt, tincidunt lorem. In hac habitasse
+        platea dictumst. Cras tincidunt, nunc ut vestibulum interdum, magna
+        sapien dignissim ipsum, in semper velit magna sed elit. Nullam
+        condimentum odio ac venenatis mattis. Vivamus dignissim fermentum velit
+        id tempor. Suspendisse sit amet lobortis arcu. Donec eleifend nisi
+        justo, vitae euismod orci molestie vel. Nam aliquam velit augue, ac
+        euismod erat dapibus ac. Integer aliquet ultricies nisi, posuere
+        interdum sapien efficitur vitae. In blandit massa quis ullamcorper
+        luctus.
   heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+    blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
+    tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus libero
+    vel ligula dapibus, ac convallis felis gravida. Vivamus augue ligula,
+    laoreet quis lectus ac, bibendum mollis metus. "
 main:
   heading: Great coffee with no compromises
   description: >
