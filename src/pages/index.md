@@ -1,21 +1,29 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+title: Nebraska Mycological Society
+image: /img/img_0472.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Fungi enthusiasts from the Cornhusker State
 mainpitch:
-  title: Why Kaldi
+  title: Who are we?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus
+    quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at
+    diam. Nulla lobortis a ex eget porttitor. Nam maximus libero vel ligula
+    dapibus, ac convallis felis gravida. Vivamus augue ligula, laoreet quis
+    lectus ac, bibendum mollis metus. Maecenas in ex porta, convallis risus
+    tincidunt, tincidunt lorem. In hac habitasse platea dictumst. Cras
+    tincidunt, nunc ut vestibulum interdum, magna sapien dignissim ipsum, in
+    semper velit magna sed elit. Nullam condimentum odio ac venenatis mattis.
+    Vivamus dignissim fermentum velit id tempor. Suspendisse sit amet lobortis
+    arcu. Donec eleifend nisi justo, vitae euismod orci molestie vel. Nam
+    aliquam velit augue, ac euismod erat dapibus ac. Integer aliquet ultricies
+    nisi, posuere interdum sapien efficitur vitae. In blandit massa quis
+    ullamcorper luctus.
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 intro:
   blurbs:
     - image: /img/coffee.png
