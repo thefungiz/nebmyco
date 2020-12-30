@@ -20,29 +20,30 @@ mainpitch:
     aliquam velit augue, ac euismod erat dapibus ac. Integer aliquet ultricies
     nisi, posuere interdum sapien efficitur vitae. In blandit massa quis
     ullamcorper luctus.
-description: We are a group of mushroom enthusiasts working to bring
-  the mushroom lovers together in our great state of Nebraska.
+description: We are a group of mushroom enthusiasts working to bring the
+  mushroom lovers together in our great state of Nebraska.
 intro:
   blurbs:
     - image: /img/about-us.png
       title: About
       link: /about/
-      text: >
+      text: |
         Learn about the history, mission, and goals of our group.
     - image: /img/20181002_131142.jpg
       title: Join
       link: /join/
       text: >
-        Join out communication channels to learn about upcoming meetings and ways you can get involved.
+        Join our communication channels to learn about upcoming meetings and
+        ways you can get involved.
     - image: /img/20190701_125249.jpg
       title: Community
       link: /community/
-      text: >
+      text: |
         Check out the group's activities and upcoming events.
     - image: /img/img_2911.jpg
       title: Education
       link: /education/
-      text: >
+      text: |
         Articles on Nebraska fungi.
   heading: What we offer
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
