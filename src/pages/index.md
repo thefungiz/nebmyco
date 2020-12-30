@@ -20,31 +20,32 @@ mainpitch:
     aliquam velit augue, ac euismod erat dapibus ac. Integer aliquet ultricies
     nisi, posuere interdum sapien efficitur vitae. In blandit massa quis
     ullamcorper luctus.
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus
+    quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at
+    diam.
 intro:
   blurbs:
     - image: /img/about-us.png
+      title: About
       text: >
-        About. 
-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus libero vel ligula dapibus, ac convallis felis gravida. 
     - image: /img/coffee-gear.png
+      title: Join
       text: >
-        Join Us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
         blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
         ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. 
     - image: /img/tutorials.png
+      title: Community
       text: >
         Community. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
         blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
         ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam
         maximus libero vel ligula dapibus, ac convallis felis gravida. 
     - image: /img/meeting-space.png
+      title: Education
       text: >
-        Education. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
         blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui
         ultrices tempor id at diam. Nulla lobortis a ex eget porttitor. Nam
         maximus libero vel ligula dapibus, ac convallis felis gravida. Vivamus
