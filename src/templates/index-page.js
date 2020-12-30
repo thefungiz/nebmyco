@@ -36,7 +36,7 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
+        {/* <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             backgroundColor: 'red',
@@ -61,7 +61,7 @@ export const IndexPageTemplate = ({
           }}
         >
           {subheading}
-        </h3>
+        </h3> */}
       </div>
     </div>
     <section className="section section--gradient">

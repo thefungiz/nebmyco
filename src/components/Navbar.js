@@ -42,7 +42,8 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              {/* <img src={logo} alt="Kaldi" style={{ width: '88px' }} /> */}
+              <span>Nebraska Mycological Society</span>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -63,21 +64,21 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
+              <Link className="navbar-item" to="/join">
+                Join
+              </Link>
+              <Link className="navbar-item" to="/community">
+                Community
+              </Link>
+              <Link className="navbar-item" to="/eduction">
+                Eduction
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
             </div>
             <div className="navbar-end has-text-centered">
-              <a
+              {/* <a
                 className="navbar-item"
                 href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
                 target="_blank"
@@ -86,7 +87,7 @@ const Navbar = class extends React.Component {
                 <span className="icon">
                   <img src={github} alt="Github" />
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
