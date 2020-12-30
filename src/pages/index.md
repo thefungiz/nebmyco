@@ -26,18 +26,22 @@ intro:
   blurbs:
     - image: /img/about-us.png
       title: About
+      link: /about/
       text: >
         Learn about the history, mission, and goals of our group.
     - image: /img/20181002_131142.jpg
       title: Join
+      link: /join/
       text: >
         Join out communication channels to learn about upcoming meetings and ways you can get involved.
     - image: /img/20190701_125249.jpg
       title: Community
+      link: /community/
       text: >
         Check out the group's activities and upcoming events.
     - image: /img/img_2911.jpg
       title: Education
+      link: /education/
       text: >
         Articles on Nebraska fungi.
   heading: What we offer
