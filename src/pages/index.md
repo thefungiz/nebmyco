@@ -20,7 +20,7 @@ mainpitch:
     aliquam velit augue, ac euismod erat dapibus ac. Integer aliquet ultricies
     nisi, posuere interdum sapien efficitur vitae. In blandit massa quis
     ullamcorper luctus.
-description: We are a group of amateur mycology enthusiasts shooting to bring
+description: We are a group of mushroom enthusiasts working to bring
   the mushroom lovers together in our great state of Nebraska.
 intro:
   blurbs:
