@@ -5,7 +5,7 @@ image: /img/img_0204.jpg
 heading: Our Community
 subheading: Fungi enthusiasts from the Cornhusker State
 mainpitch:
-  title: Who are we?
+  title: Who are we? We're the fungiz and fungalz
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit tellus
     quis ultrices placerat. Ut sit amet justo tempor dui ultrices tempor id at
