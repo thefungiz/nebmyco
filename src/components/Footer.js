@@ -39,31 +39,16 @@ const Footer = class extends React.Component {
                         Join
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link className="navbar-item" to="/community">
-                        Community
+                    <li>
+                      <Link className="navbar-item" to="/calendar">
+                        Calendar
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/eduction">
-                        Education
-                      </Link>
-                    </li> */}
                     <li>
                       <Link className="navbar-item" to="/blog">
                         Blog
                       </Link>
                     </li>
-                    {/* <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li> */}
                   </ul>
                 </section>
               </div>
