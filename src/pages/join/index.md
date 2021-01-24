@@ -1,6 +1,7 @@
 ---
 templateKey: join-page
 path: /join
+image: /img/img_2911.jpg
 title: Join the Nebraska Mycological Society
 ---
 ### Please join us!

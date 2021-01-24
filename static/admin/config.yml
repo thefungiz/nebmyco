@@ -49,6 +49,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/join/index.md"
         label: "Join"
@@ -56,6 +57,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "join-page"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/calendar/index.md"
         label: "Calendar"
@@ -63,4 +65,5 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "calendar-page"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: Image, name: image, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
