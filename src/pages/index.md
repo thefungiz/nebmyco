@@ -36,13 +36,13 @@ intro:
         Join our communication channels to learn about upcoming meetings and
         ways you can get involved.
     - image: /img/20190701_125249.jpg
-      title: Community
-      link: /community/
+      title: Calendar
+      link: /calendar/
       text: |
         Check out the group's activities and upcoming events.
     - image: /img/img_2911.jpg
-      title: Education
-      link: /education/
+      title: Blog
+      link: /blog/
       text: |
         Articles on Nebraska fungi.
   heading: What we offer
