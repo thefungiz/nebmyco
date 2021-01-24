@@ -25,46 +25,8 @@ export const IndexPageTemplate = ({
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        //backgroundAttachment: `fixed`,
       }}
     >
-      {/* <div
-        style={{
-          display: 'flex',
-          height: '100px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      > */}
-        {/* <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            backgroundColor: 'red',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-            borderRadius: '10px',
-            textAlign: 'center',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            backgroundColor: 'red',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-            borderRadius: '10px',
-            textAlign: 'center',
-          }}
-        >
-          {subheading}
-        </h3> */}
-      {/* </div> */}
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -72,14 +34,6 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                {/* <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div> */}
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
