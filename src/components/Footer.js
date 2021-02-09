@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import logo from '../img/NMS-inv-trans.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
+import youtube from '../img/social/youtube.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -73,6 +74,13 @@ const Footer = class extends React.Component {
                   <img
                     src={instagram}
                     alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="youtube" href="https://www.youtube.com/channel/UCH8awFI3fmHrWhSgAPI26Kw">
+                  <img
+                    src={youtube}
+                    alt="YouTube"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
