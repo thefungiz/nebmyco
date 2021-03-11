@@ -110,10 +110,19 @@ $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
 
+//https://thomas.vanhoutte.be/miniblog/make-google-calendar-iframe-responsive/
 .calendarWrapper
-  width: 80%
-  min-height: 300px
+  padding-bottom: 75%
+  height: 0
+  over-flow: hidden
   position: relative
+
+.calendarWrapper iframe
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
 
 .menu-label
   font-size: 1em !important
