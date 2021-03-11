@@ -5,92 +5,99 @@ import logo from '../img/NMS-inv-trans.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import youtube from '../img/social/youtube.svg'
+import shop from '../img/social/shop2.svg'
 
-const Footer = class extends React.Component {
-  render() {
-    return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Logo"
-            style={{ width: '14em', height: '14em' }}
-          />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
+const Footer = () => {
+  const socialLinkStyles = { width: '1em', height: '1em' };
+  return (
+    <footer className="footer has-background-black has-text-white-ter">
+      <div className="content has-text-centered">
+        <img
+          src={logo}
+          alt="Logo"
+          style={{ width: '14em', height: '14em' }}
+        />
+      </div>
+      <div className="content has-text-centered has-background-black has-text-white-ter">
+        <div className="container has-background-black has-text-white-ter">
+          <div style={{ maxWidth: '100vw' }} className="columns">
+            <div className="column is-4">
+              <section className="menu">
+                <ul className="menu-list">
+                  <li>
+                    <Link to="/" className="navbar-item">
+                      Home
                       </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="/about">
+                      About
                       </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/join">
-                        Join
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="/join">
+                      Join
                       </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/calendar">
-                        Calendar
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="/calendar">
+                      Calendar
                       </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Blog
+                  </li>
+                  <li>
+                    <Link className="navbar-item" to="/blog">
+                      Blog
                       </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                  </li>
+                </ul>
+              </section>
+            </div>
+            <div className="column is-4">
+              <section>
+                <ul className="menu-list">
+                  <li>
+                    <Link className="navbar-item" to="/blog">
+                      Latest Stories
                       </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://www.facebook.com/groups/nemyco">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://www.instagram.com/nebmyco/">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="youtube" href="https://www.youtube.com/channel/UCH8awFI3fmHrWhSgAPI26Kw">
-                  <img
-                    src={youtube}
-                    alt="YouTube"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              </div>
+                  </li>
+                </ul>
+              </section>
+            </div>
+            <div className="column is-4 social">
+              <a title="facebook" href="https://www.facebook.com/groups/nemyco">
+                <img
+                  src={facebook}
+                  alt="Facebook"
+                  style={socialLinkStyles}
+                />
+              </a>
+              <a title="instagram" href="https://www.instagram.com/nebmyco/">
+                <img
+                  src={instagram}
+                  alt="Instagram"
+                  style={socialLinkStyles}
+                />
+              </a>
+              <a title="youtube" href="https://www.youtube.com/channel/UCH8awFI3fmHrWhSgAPI26Kw">
+                <img
+                  src={youtube}
+                  alt="YouTube"
+                  style={socialLinkStyles}
+                />
+              </a>
+              <a title="Etsy Shop" href="https://www.etsy.com/shop/NebMyco">
+                <img
+                  src={shop}
+                  alt="Etsy Shop"
+                  style={socialLinkStyles}
+                />
+              </a>
             </div>
           </div>
         </div>
-      </footer>
-    )
-  }
+      </div>
+    </footer>
+  )
 }
 
 export default Footer
