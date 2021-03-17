@@ -76,6 +76,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 <h2>Blog</h2>
               </Link>
+              <Link className="navbar-item" to="https://www.etsy.com/shop/NebMyco">
+                <h2>Shop</h2>
+              </Link>
               <a className="navbar-item" title="Facebook" href="https://www.facebook.com/groups/nemyco">
                 <img src={facebook} alt="Facebook" className="navbar-social-icon" />
               </a>
@@ -84,9 +87,6 @@ const Navbar = class extends React.Component {
               </a>
               <a className="navbar-item" title="YouTube" href="https://www.youtube.com/channel/UCH8awFI3fmHrWhSgAPI26Kw">
                 <img src={youtube} alt="YouTube" className="navbar-social-icon" />
-              </a>
-              <a className="navbar-item" title="Etsy Shop" href="https://www.etsy.com/shop/NebMyco">
-                <img src={shop} alt="Etsy Shop" className="navbar-social-icon" />
               </a>
             </div>
           </div>

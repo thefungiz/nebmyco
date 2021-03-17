@@ -5,7 +5,6 @@ import logo from '../img/NMS-inv-trans.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import youtube from '../img/social/youtube.svg'
-import shop from '../img/social/shop2.svg'
 
 const Footer = () => {
   const socialLinkStyles = { width: '1em', height: '1em' };
@@ -49,6 +48,11 @@ const Footer = () => {
                       Blog
                       </Link>
                   </li>
+                  <li>
+                  <Link className="navbar-item" to="https://www.etsy.com/shop/NebMyco">
+                      Shop
+                    </Link>
+                  </li>
                 </ul>
               </section>
             </div>
@@ -82,13 +86,6 @@ const Footer = () => {
                 <img
                   src={youtube}
                   alt="YouTube"
-                  style={socialLinkStyles}
-                />
-              </a>
-              <a title="Etsy Shop" href="https://www.etsy.com/shop/NebMyco">
-                <img
-                  src={shop}
-                  alt="Etsy Shop"
                   style={socialLinkStyles}
                 />
               </a>
