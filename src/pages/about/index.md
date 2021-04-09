@@ -6,7 +6,7 @@ title: About the Nebraska Mycological Society
 ---
 ### Mission
 
-We are a mushroom club based out of Eastern Nebraska that is dedicated to the education, identification, and foraging of wild mushrooms. We are made up of fungi enthusiasts who share information about mushrooms through online forums, forays, classes, and meetings. Join us at our next meeting or contact us to learn more! 
+We are a mushroom club based out of Nebraska that is dedicated to the education, identification, and foraging of wild mushrooms. We are made up of fungi enthusiasts who share information about mushrooms through online forums, forays, classes, and meetings. Join us at our next meeting or contact us to learn more! 
 
 ### Vision
 
