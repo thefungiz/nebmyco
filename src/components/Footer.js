@@ -5,6 +5,7 @@ import logo from '../img/NMS-inv-trans.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import youtube from '../img/social/youtube.svg'
+import discord from '../img/social/discord.png'
 
 const Footer = () => {
   const socialLinkStyles = { width: '1em', height: '1em' };
@@ -86,6 +87,13 @@ const Footer = () => {
                 <img
                   src={youtube}
                   alt="YouTube"
+                  style={socialLinkStyles}
+                />
+              </a>
+              <a title="discord" href="https://discord.gg/bkHTemVyNP">
+                <img
+                  src={discord}
+                  alt="Discord"
                   style={socialLinkStyles}
                 />
               </a>

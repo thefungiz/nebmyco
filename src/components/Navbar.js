@@ -4,7 +4,7 @@ import logo from '../img/NMS-trans.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import youtube from '../img/social/youtube.svg'
-import shop from '../img/social/shop2.svg'
+import discord from '../img/social/discord.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -87,6 +87,9 @@ const Navbar = class extends React.Component {
               </a>
               <a className="navbar-item" title="YouTube" href="https://www.youtube.com/channel/UCH8awFI3fmHrWhSgAPI26Kw">
                 <img src={youtube} alt="YouTube" className="navbar-social-icon" />
+              </a>
+              <a className="navbar-item" title="Discord" href="https://discord.gg/bkHTemVyNP">
+                <img src={discord} alt="Discord" className="navbar-social-icon" />
               </a>
             </div>
           </div>
