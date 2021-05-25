@@ -1,6 +1,6 @@
 ---
 templateKey: calendar-page
 path: /calendar
-image: /img/img_0472.jpg
+image: /img/IMG_1315.jpeg
 title: Calendar
 ---
