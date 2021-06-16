@@ -54,19 +54,28 @@ div.blog-post-content img
   right: 50%
   margin: 2em -50vw
   background-size: cover
-  background-position: bottom
+  background-position: center
   display: flex
   justify-content: center
   align-items: center
+  background-attachment: fixed
 
 .full-width-image
     width: 100vw
     height: 400px
     background-size: cover
-    background-position: bottom
+    background-position: center
+    background-attachment: fixed
     display: flex
     justify-content: center
     align-items: center
+
+@media(max-width: 600px)
+  .full-width-image
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    background-attachment: scroll
 
 .btn
     display: inline-block

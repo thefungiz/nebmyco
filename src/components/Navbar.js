@@ -45,10 +45,11 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img className="navbar-logo-img" src={logo} />
+              <img alt="logo" className="navbar-logo-img" src={logo} />
               <h1 className="is-hidden-touch">Nebraska Mycological Society</h1>
             </Link>
             {/* Hamburger menu */}
+            {/* eslint-disable-next-line */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"

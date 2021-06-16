@@ -17,6 +17,7 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
+          backgroundAttachment: 'scroll'
         }}
       >
       </div>

@@ -21,9 +21,7 @@ export const IndexPageTemplate = ({
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
+        })`
       }}
     >
     </div>

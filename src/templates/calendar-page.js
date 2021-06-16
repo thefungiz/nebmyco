@@ -14,9 +14,7 @@ export const CalendarPageTemplate = ({ title, image, content, contentComponent }
         className="full-width-image margin-top-0"
         style={{
           backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`,
-            backgroundPosition: 'center',
-            backgroundAttachment: 'fixed',
+            })`
         }}
       >
       </div>
