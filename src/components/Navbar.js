@@ -80,6 +80,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="https://www.etsy.com/shop/NebMyco">
                 <h2>Shop</h2>
               </Link>
+              <a className="navbar-item" title="Donate" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
+                <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate" />
+              </a>
               <a className="navbar-item" title="Facebook" href="https://www.facebook.com/groups/nemyco">
                 <img src={facebook} alt="Facebook" className="navbar-social-icon" />
               </a>
