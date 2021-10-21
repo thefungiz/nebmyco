@@ -15,12 +15,8 @@ const MembershipForm = () => {
 
   return (
     <div>
-      <div>
-        <h2>Step 1 - Your Information</h2>
-      </div>
-      <p>
-        All fields are required unless marked optional.
-      </p>
+      <h2 className="title">Step 1 - Your Information</h2>
+      <p className="subtitle">All fields are required unless marked optional.</p>
       <form method="post" onSubmit={handleSubmit}>
         <input className="input is-rounded" type="text" name="first.name" placeholder="First Name" onChange={handleChange} />
         <input className="input is-rounded" type="text" name="last.name" placeholder="Last Name" onChange={handleChange} />
@@ -41,7 +37,11 @@ const MembershipForm = () => {
             </label>)
           })}
         </fieldset>
-        <textarea className="textarea" rows="10" name="message" placeholder="Message (Optional)" onChange={handleChange} />
+        <textarea className="textarea is-rounded" rows="10" name="message" placeholder="Message (Optional)" onChange={handleChange} />
+        <label className="checkbox" style={{display: 'block'}}>
+          <input type="checkbox" name="waiver.agreement" />
+          I agree to the <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1WVk9yvwaLb6NK72x21cOeH0LThThbDAm/view?usp=sharing">Liability Waiver</a>
+        </label>
         <button className="button" type="submit">Submit</button>
       </form>
     </div>
