@@ -27,7 +27,6 @@ export const JoinPageTemplate = ({ title, image, content, contentComponent }) =>
                   {title}
                 </h2>
                 <PageContent className="content" content={content} />
-
                 <MembershipForm></MembershipForm>
               </div>
             </div>

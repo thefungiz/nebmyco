@@ -19,70 +19,30 @@ const MembershipForm = () => {
         <h2>Step 1 - Your Information</h2>
       </div>
       <p>
-        Required fields are marked with a (*)
+        All fields are required unless marked optional.
       </p>
       <form method="post" onSubmit={handleSubmit}>
-        <p>
-          <label>
-            First Name*:<br />
-            <input type="text" name="first.name" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Last Name*:<br />
-            <input type="text" name="last.name" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Address Line 1*:<br />
-            <input type="text" name="address.line1" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Address Line 2*:<br />
-            <input type="text" name="address.line2" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            City*:<br />
-            <input type="text" name="address.city" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            State*:<br />
-            <input type="text" name="address.state" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Zip*:<br />
-            <input type="text" name="address.zip" onChange={handleChange} />
-          </label>
-        </p>
-        <fieldset>
-          <legend>Region*</legend>
-
+        <input className="input is-rounded" type="text" name="first.name" placeholder="First Name" onChange={handleChange} />
+        <input className="input is-rounded" type="text" name="last.name" placeholder="Last Name" onChange={handleChange} />
+        <input className="input is-rounded" type="email" name="email" placeholder="Email" onChange={handleChange} />
+        <input className="input is-rounded" type="text" name="address.line1" placeholder="Address Line 1" onChange={handleChange} />
+        <input className="input is-rounded" type="text" name="address.line2" placeholder="Address Line 2" onChange={handleChange} />
+        <input className="input is-rounded" type="text" name="address.city" placeholder="City" onChange={handleChange} />
+        <input className="input is-rounded" type="text" name="address.state" placeholder="State" onChange={handleChange} />
+        <input className="input is-rounded" type="text" name="address.zip" placeholder="Zip" onChange={handleChange} />
+        <fieldset className="control">
+          <legend>Region</legend>
           {regionList.map(x => {
             console.log(x);
             return (
-              <div>
-                <input type="radio" id={x.toLowerCase()} name="region" />
-                <label for={x.toLowerCase()}> {x}</label>
-              </div>)
+            <label className="radio" htmlFor={x.toLowerCase()}>
+              <input type="radio" id={x.toLowerCase()} name="region" />
+              {x}
+            </label>)
           })}
         </fieldset>
-        <p>
-          <label>
-            Message (Optional):<br />
-            <textarea rows="10" columns="50" name="message" onChange={handleChange} />
-          </label>
-        </p>
-        <button type="submit">Submit</button>
+        <textarea className="textarea" rows="10" name="message" placeholder="Message (Optional)" onChange={handleChange} />
+        <button className="button" type="submit">Submit</button>
       </form>
     </div>
   )
