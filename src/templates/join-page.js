@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import MembershipForm from '../components/MembershipForm'
 
 export const JoinPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -26,6 +27,8 @@ export const JoinPageTemplate = ({ title, image, content, contentComponent }) =>
                   {title}
                 </h2>
                 <PageContent className="content" content={content} />
+
+                <MembershipForm></MembershipForm>
               </div>
             </div>
           </div>
