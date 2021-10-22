@@ -10,6 +10,7 @@ const MembershipFormTile = () => {
 
   const [isFormCompleted, setIsFormCompleted] = useState(false);
   const [isSubmissionSuccessful, setIsSubmissionSuccessful] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const [firstName, setFirstName] = useState(undefined);
   const [lastName, setLastName] = useState(undefined);
@@ -41,6 +42,7 @@ const MembershipFormTile = () => {
   const isFormValid = requiredFields.every(x => x !== undefined && x !== '' && x !== false);
 
   const handleSubmit = e => {
+    setIsSubmitting(true);
     e.preventDefault();
     sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, e.target)
       .then(() => { 
@@ -57,6 +59,7 @@ const MembershipFormTile = () => {
   const afterFormSubmission = () => {
     informationBoxRef.current.scrollIntoView();
     setIsFormCompleted(true);
+    setIsSubmitting(false);
   }
 
   const handleRecaptcha = value => {
@@ -173,7 +176,7 @@ const MembershipFormTile = () => {
           </div>
           <div className="field">
             <div className="control">
-              <button disabled={!isFormValid} className="button is-link" type="submit">Submit</button>
+              <button disabled={!isFormValid || isSubmitting} className={`button is-link ${isSubmitting ? 'is-loading' : ''}`} type="submit">Submit</button>
             </div>
           </div>
         </form>
