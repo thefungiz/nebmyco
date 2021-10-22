@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { init, sendForm } from 'emailjs-com';
 import Recaptcha from "react-google-recaptcha";
 
@@ -9,6 +9,7 @@ init(process.env.USER_ID);
 const MembershipFormTile = () => {
 
   const [isFormCompleted, setIsFormCompleted] = useState(false);
+  const [isSubmissionSuccessful, setIsSubmissionSuccessful] = useState(false);
 
   const [firstName, setFirstName] = useState(undefined);
   const [lastName, setLastName] = useState(undefined);
@@ -21,6 +22,8 @@ const MembershipFormTile = () => {
   const [region, setRegion] = useState(undefined);
   const [liabilityAgreement, setLiabilityAgreement] = useState(false);
   const [recaptchaVerified, setRecaptchaVerified] = useState(false);
+
+  const informationBoxRef = useRef(undefined);
 
   const requiredFields = [
     firstName,
@@ -40,10 +43,21 @@ const MembershipFormTile = () => {
   const handleSubmit = e => {
     e.preventDefault();
     sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, e.target)
-      .then(() => console.log('success')) // TODO present message to user
-      .catch(e => { console.error('there was an error'); console.error(e) });
-    setIsFormCompleted(true);
+      .then(() => { 
+        setIsSubmissionSuccessful(true); 
+        afterFormSubmission();
+      })
+      .catch(e => { 
+        setIsSubmissionSuccessful(false); 
+        afterFormSubmission();
+        console.error(e) 
+      });
   };
+
+  const afterFormSubmission = () => {
+    informationBoxRef.current.scrollIntoView();
+    setIsFormCompleted(true);
+  }
 
   const handleRecaptcha = value => {
     if (value) {
@@ -53,13 +67,21 @@ const MembershipFormTile = () => {
 
   const regionList = ['Omaha', 'Lincoln', 'Tri-Cities', 'Other (Specify in the "Message" field)'];
 
-  const boxContent = isFormCompleted ?
-    (
-      <div>
-        <p className="subtitle">Complete.</p>
-        <p>Thanks for filling out the signup form! You should receive an email from us shortly.</p>
-      </div>
-    )
+  const resultMessage = isSubmissionSuccessful ? 
+  (
+    <div>
+      <p className="subtitle">Congratulations!</p>
+      <p>Thanks for filling out the signup form. You should receive an email from us within the next few days. Welcome to the club!</p>
+    </div>
+  )
+  : (
+    <div>
+      <p className="subtitle">Something unexpected happened..</p>
+      <p>We were unable to submit your information for an unexpected reason. Please contact nebmyco@gmail.com for assistance. Thanks!</p>
+    </div>
+  );
+
+  const boxContent = isFormCompleted ? resultMessage
     : (
       <div>
         <p className="subtitle">All fields are required unless marked optional.</p>
@@ -159,7 +181,7 @@ const MembershipFormTile = () => {
     )
 
   return (
-    <div className="box">
+    <div className="box" ref={informationBoxRef}>
       <h2 className="title">Step 1 - Your Information</h2>
       {boxContent}
     </div>
