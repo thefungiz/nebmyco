@@ -6,7 +6,7 @@ const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
 
 init(process.env.USER_ID);
 
-const MembershipForm = () => {
+const MembershipFormTile = () => {
 
   const [isFormCompleted, setIsFormCompleted] = useState(false);
 
@@ -145,7 +145,6 @@ const MembershipForm = () => {
           </div>
           <div className="field">
             <Recaptcha
-              // ref="recaptcha"
               sitekey={RECAPTCHA_KEY}
               onChange={handleRecaptcha}
             />
@@ -167,4 +166,4 @@ const MembershipForm = () => {
   )
 };
 
-export default MembershipForm;
+export default MembershipFormTile;
