@@ -16,10 +16,42 @@ const MembershipDueTile = () => {
       </div>
       <div className="columns">
             <div className="column">
-                Type and Duration
+                Individual 1-year
             </div>
             <div className="column">
-                Cost
+                $20.00 <a title="Donate" href="https://www.paypal.com/donate?hosted_button_id=PCB4K2R88YWWL">
+                <img src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Donate" />
+              </a>
+            </div>
+      </div>
+      <div className="columns">
+            <div className="column">
+                Individual 2-year
+            </div>
+            <div className="column">
+                $35.00 <a title="Donate" href="https://www.paypal.com/donate?hosted_button_id=TZZKH5V5M6D46">
+                <img src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Donate" />
+              </a>
+            </div>
+      </div>
+      <div className="columns">
+            <div className="column">
+                Family 1-year
+            </div>
+            <div className="column">
+                $30.00 <a title="Donate" href="https://www.paypal.com/donate?hosted_button_id=GRUXAU2EYKW2J">
+                <img src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Donate" />
+              </a>
+            </div>
+      </div>
+      <div className="columns">
+            <div className="column">
+                Family 2-year
+            </div>
+            <div className="column">
+                $55.00 <a title="Donate" href="https://www.paypal.com/donate?hosted_button_id=SD2XZ2L4PSD52">
+                <img src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Donate" />
+              </a>
             </div>
       </div>
     </div>

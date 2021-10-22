@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import MembershipFormTile from '../components/MembershipFormTile'
+import MembershipDueTile from '../components/MembershipDueTile'
 
 export const JoinPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -29,6 +30,7 @@ export const JoinPageTemplate = ({ title, image, content, contentComponent }) =>
                 <PageContent className="content" content={content} />
                 <MembershipFormTile></MembershipFormTile>
                 <MembershipDueTile></MembershipDueTile>
+                <p>Any issues with this page? Please contact nebmyco@gmail.com for assistance. Thanks!</p>
               </div>
             </div>
           </div>
