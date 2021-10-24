@@ -92,19 +92,19 @@ const MembershipFormTile = () => {
         <p className="subtitle">All fields are required unless marked optional.</p>
         <form data-netlify="true" data-netlify-recaptcha="true" encType="multipart/form-data" method="post" onSubmit={handleSubmit}>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="firstName">
               First Name
             </label>
             <input className="input is-rounded" type="text" name="firstName" value={firstName} onChange={e => setFirstName(e.target.value)} placeholder="Mycena" />
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="lastName">
               Last Name
             </label>
             <input className="input is-rounded" type="text" name="lastName" value={lastName} onChange={e => setLastName(e.target.value)} placeholder="McMycelium" />
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="email">
               Email
             </label>
             <input className="input is-rounded has-icons-left" type="email" name="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="ganoderma@gmail.com" />
@@ -113,37 +113,37 @@ const MembershipFormTile = () => {
         </span> */}
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="addressLine1">
               Address Line 1
             </label>
             <input className="input is-rounded" type="text" name="addressLine1" value={addressLine1} onChange={e => setAddressLine1(e.target.value)} placeholder="445 Mycological Way" />
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="addressLine2">
               Address Line 2
             </label>
             <input className="input is-rounded" type="text" name="addressLine2" value={addressLine2} onChange={e => setAddressLine2(e.target.value)} placeholder="Apartment 2" />
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="addressCity">
               City
             </label>
             <input className="input is-rounded" type="text" name="addressCity" value={addressCity} onChange={e => setAddressCity(e.target.value)} placeholder="Mushroom City" />
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="addressState">
               State
             </label>
             <input className="input is-rounded" type="text" name="addressState" value={addressState} onChange={e => setAddressState(e.target.value)} placeholder="Nebraska" />
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="addressZip">
               Zip
             </label>
             <input className="input is-rounded" type="text" name="addressZip" value={addressZip} onChange={e => setAddressZip(e.target.value)} placeholder="77777" />
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="region">
               Region
             </label>
             <fieldset className="control" value={region} onChange={e => setRegion(e.target.value)}>
@@ -157,7 +157,7 @@ const MembershipFormTile = () => {
             </fieldset>
           </div>
           <div className="field">
-            <label className="label">
+            <label className="label" htmlFor="message">
               Message (Optional)
             </label>
             <div className="control">
