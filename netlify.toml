@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "echo SERVICE_ID=$SERVICE_ID >> .env.production && echo TEMPLATE_ID=$TEMPLATE_ID >> .env.production && echo USER_ID=$USER_ID >> .env.production && echo SITE_RECAPTCHA_KEY=$SITE_RECAPTCHA_KEY >> .env.production && gatsby build"
+  command = "echo SIGNUP_REPLY_TEMPLATE_ID=$SIGNUP_REPLY_TEMPLATE_ID >> .env.production && echo SERVICE_ID=$SERVICE_ID >> .env.production && echo SIGNUP_SUBMISSION_TEMPLATE_ID=$SIGNUP_SUBMISSION_TEMPLATE_ID >> .env.production && echo USER_ID=$USER_ID >> .env.production && echo SITE_RECAPTCHA_KEY=$SITE_RECAPTCHA_KEY >> .env.production && gatsby build"
   functions = "lambda"
 [build.environment]
   NODE_VERSION = "12"

@@ -44,8 +44,10 @@ const MembershipFormTile = () => {
   const handleSubmit = e => {
     setIsSubmitting(true);
     e.preventDefault();
-    sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, e.target)
-      .then(() => { 
+    Promise.all([
+      sendForm(process.env.SERVICE_ID, process.env.SIGNUP_SUBMISSION_TEMPLATE_ID, e.target),
+      sendForm(process.env.SERVICE_ID, process.env.SIGNUP_REPLY_TEMPLATE_ID, e.target),
+    ]).then(() => { 
         setIsSubmissionSuccessful(true); 
         afterFormSubmission();
       })
