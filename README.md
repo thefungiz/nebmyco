@@ -1,8 +1,9 @@
 https://github.com/netlify-templates/gatsby-starter-netlify-cms
 
-Captcha stuff - https://github.com/imorente/gatsby-netlify-form-example
+ReCaptcha stuff - https://github.com/imorente/gatsby-netlify-form-example
 
-This site uses emailjs for managing email sending. 
+Gotchas:
+* If ReCaptcha isn't displaying correctly, open in an new incogneto window.
 
 # Gatsby + Netlify CMS Starter
 

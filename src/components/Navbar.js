@@ -5,10 +5,11 @@ import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import youtube from '../img/social/youtube.svg'
 import discord from '../img/social/discord.png'
+import donate from '../img/donate.svg'
 
 const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super();
     this.state = {
       active: false,
       navBarActiveClass: '',
@@ -80,9 +81,6 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="https://www.etsy.com/shop/NebMyco">
                 <h2>Shop</h2>
               </Link>
-              <a className="navbar-item" title="Donate" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
-                <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate" />
-              </a>
               <a className="navbar-item" title="Facebook" href="https://www.facebook.com/groups/nemyco">
                 <img src={facebook} alt="Facebook" className="navbar-social-icon" />
               </a>
@@ -94,6 +92,9 @@ const Navbar = class extends React.Component {
               </a>
               <a className="navbar-item" title="Discord" href="https://discord.gg/bkHTemVyNP">
                 <img src={discord} alt="Discord" className="navbar-social-icon" />
+              </a>
+              <a className="navbar-item" title="Donate" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
+                <img src={donate} alt="Donate" className="navbar-donate-icon" />
               </a>
             </div>
           </div>
