@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import Calendar from '../components/Calendar'
+import Calendar from '../components/MycoCalendar'
 
 export const CalendarPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
