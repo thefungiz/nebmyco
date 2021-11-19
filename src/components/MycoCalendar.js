@@ -4,6 +4,9 @@ import Calendar from '@ericz1803/react-google-calendar';
 const calendars = [{ calendarId: process.env.CALENDAR_ID }];
 const apiKey = process.env.GOOGLE_CAL_API_KEY;
 
+console.log(`is apikey loaded? ${apiKey ? 'yes' : 'no'}`);
+console.log(`is calendarId loaded? ${calendars[0].calendarId ? 'yes' : 'no'}`);
+
 const MycoCalendar = () => {
     const baseCalendarUrl = `https://calendar.google.com/calendar/embed?${encodeURI('src=nebmyco@gmail.com&ctz=America/Chicago')}`
     const agendaCalendarUrl = `${baseCalendarUrl}${encodeURI('&mode=AGENDA&showTabs=0&showTitle=0&showNav=0&showDate=0')}`

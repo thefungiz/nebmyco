@@ -4,6 +4,7 @@ ReCaptcha stuff - https://github.com/imorente/gatsby-netlify-form-example
 
 Gotchas:
 * If ReCaptcha isn't displaying correctly, open in an new incogneto window.
+* Edit envrionment variables in Deploy Settings > Environment then add the echo out to netlify.toml
 
 # Gatsby + Netlify CMS Starter
 
