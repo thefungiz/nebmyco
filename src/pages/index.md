@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Nebraska Mycological Society
 image: /img/img_0204.jpg
-heading: Our Community
+heading: Welcome to the Nebraska Mycological Society!
 subheading: Fungi enthusiasts from the Cornhusker State
 mainpitch:
   title: Who are we? We're the fungiz and fungalz
