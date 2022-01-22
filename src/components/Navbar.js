@@ -4,7 +4,7 @@ import logo from '../img/NMS-trans.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import youtube from '../img/social/youtube.svg'
-import discord from '../img/social/discord.png'
+import discord from '../img/social/discord.svg'
 import donate from '../img/donate.svg'
 
 const Navbar = class extends React.Component {
@@ -83,15 +83,19 @@ const Navbar = class extends React.Component {
               </Link>
               <a className="navbar-item" title="Facebook" href="https://www.facebook.com/groups/nemyco">
                 <img src={facebook} alt="Facebook" className="navbar-social-icon" />
+                Facebook
               </a>
               <a className="navbar-item" title="Instagram" href="https://www.instagram.com/nebmyco/">
                 <img src={instagram} alt="Instagram" className="navbar-social-icon" />
+                Instagram
               </a>
               <a className="navbar-item" title="YouTube" href="https://www.youtube.com/channel/UCH8awFI3fmHrWhSgAPI26Kw">
                 <img src={youtube} alt="YouTube" className="navbar-social-icon" />
+                YouTube
               </a>
               <a className="navbar-item" title="Discord" href="https://discord.gg/bkHTemVyNP">
                 <img src={discord} alt="Discord" className="navbar-social-icon" />
+                Discord
               </a>
               <a className="navbar-item" title="Donate" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
                 <img src={donate} alt="Donate" className="navbar-donate-icon" />
