@@ -46,8 +46,9 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img alt="logo" className="navbar-logo-img" src={logo} />
-              <h1 className="is-hidden-touch">Nebraska Mycological Society</h1>
+              <img alt="logo" className="navbar-logo-img is-hidden-touch" src={logo} />
+              <img alt="logo" className="navbar-logo-img-small is-hidden-desktop" src={logo} />
+              <h1 className="is-hidden-mobile">Nebraska Mycological Society</h1>
             </Link>
             {/* Hamburger menu */}
             {/* eslint-disable-next-line */}
@@ -59,6 +60,7 @@ const Navbar = class extends React.Component {
                 <span className="increase" />
                 <span className="increase" />
                 <span className="increase" />
+                <div className="buger-title">Menu</div>
             </div>
           </div>
           <div

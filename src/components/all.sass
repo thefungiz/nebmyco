@@ -6,12 +6,17 @@ $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
 $theme-green: #444c2f
-$theme-purple: #57244b
+$theme-purple: #57424b
+
+$content-heading-color: white
 
 $primary: $turquoise
 $primary-invert: $kaldi-red-invert
 $body-color: #444c2f
 $black: #2b2523
+
+body
+  color: white !important
 
 span.increase
   height: 3px !important;
@@ -25,9 +30,18 @@ div.blog-post-content img
 .navbar
   background-color: $theme-green !important
 
+.navbar-menu
+  background-color: $theme-green !important
+
 .navbar-item
   color: white !important
-  font-weight: bold
+  font-weight: bold !important
+
+.navbar-burger
+  color: white !important
+
+div.content-container
+  background-color: $theme-purple !important
 
 a.navbar-item:focus-within
   background-color: $theme-purple !important
@@ -37,6 +51,10 @@ a.navbar-item:focus-within
 
 .navbar-logo-img
   max-height: 14em !important
+  padding-right: 2em
+
+.navbar-logo-img-small
+  max-height: 5em !important
   padding-right: 2em
 
 .navbar-social-icon
