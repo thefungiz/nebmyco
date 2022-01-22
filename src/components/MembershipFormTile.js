@@ -161,7 +161,7 @@ const MembershipFormTile = () => {
               Message (Optional)
             </label>
             <div className="control">
-              <textarea className="textarea is-rounded" rows="10" name="message" placeholder="Tell us a little bit about you." />
+              <textarea className="textarea is-rounded" rows="10" name="message" placeholder="Tell us a little bit about you. How'd you first hear about the club?" />
             </div>
           </div>
           <div className="field">

@@ -49,11 +49,6 @@ const Footer = () => {
                       Blog
                       </Link>
                   </li>
-                  <li>
-                  <Link className="navbar-item" to="https://www.etsy.com/shop/NebMyco">
-                      Shop
-                    </Link>
-                  </li>
                 </ul>
               </section>
             </div>
