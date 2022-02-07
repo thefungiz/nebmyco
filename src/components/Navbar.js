@@ -78,6 +78,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 <h2>Blog</h2>
               </Link>
+              <a className="navbar-item" title="Shop" href="https://www.etsy.com/shop/NebMycoSociety">
+                <h2>Shop</h2>
+              </a>
               <a className="navbar-item" title="Facebook" href="https://www.facebook.com/groups/nemyco">
                 <img src={facebook} alt="Facebook" className="navbar-social-icon" />
               </a>
