@@ -109,19 +109,26 @@ div.blog-post-content img {
 }
 
 .navbar-item .icon {
-  color: $primary;
+  color: black;
+  margin: 3px;
+}
+
+.navbar-item .icon:only-child {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 // Override for use of svg's from https://simpleicons.org/
 .icon svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  fill: black;
 }
 
 .navbar-brand .navbar-item.logo {
   padding: 0 1rem
 }
+
 footer.footer {
   padding: 3rem 0rem 0rem;
   background-color: transparent;

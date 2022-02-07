@@ -81,20 +81,28 @@ const Navbar = class extends React.Component {
               <a className="navbar-item" title="Shop" href="https://www.etsy.com/shop/NebMycoSociety">
                 <h2>Shop</h2>
               </a>
+              <a className="navbar-item" title="Donate" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
+                <h2>Donate</h2>
+              </a>
               <a className="navbar-item" title="Facebook" href="https://www.facebook.com/groups/nemyco">
-                <img src={facebook} alt="Facebook" className="navbar-social-icon" />
+                <span className="icon">
+                  <i className="fab fa-facebook fa-2x"></i>
+                </span>
               </a>
               <a className="navbar-item" title="Instagram" href="https://www.instagram.com/nebmyco/">
-                <img src={instagram} alt="Instagram" className="navbar-social-icon" />
+              <span className="icon">
+                  <i className="fab fa-instagram fa-2x"></i>
+                </span>
               </a>
               <a className="navbar-item" title="YouTube" href="https://www.youtube.com/channel/UCH8awFI3fmHrWhSgAPI26Kw">
-                <img src={youtube} alt="YouTube" className="navbar-social-icon" />
+              <span className="icon">
+                  <i className="fab fa-youtube fa-2x"></i>
+                </span>
               </a>
               <a className="navbar-item" title="Discord" href="https://discord.gg/bkHTemVyNP">
-                <img src={discord} alt="Discord" className="navbar-social-icon" />
-              </a>
-              <a className="navbar-item" title="Donate" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
-                <img src={donate} alt="Donate" className="navbar-donate-icon" />
+              <span className="icon">
+                  <i className="fab fa-discord fa-2x"></i>
+                </span>
               </a>
             </div>
           </div>

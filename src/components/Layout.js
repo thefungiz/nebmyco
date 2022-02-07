@@ -14,6 +14,7 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
         <link
           rel="apple-touch-icon"
