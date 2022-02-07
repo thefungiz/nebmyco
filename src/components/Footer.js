@@ -1,11 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import logo from '../img/NMS-inv-trans.png'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import youtube from '../img/social/youtube.svg'
-import discord from '../img/social/discord.png'
 
 const Footer = () => {
   const socialLinkStyles = { width: '1em', height: '1em' };
@@ -65,32 +60,24 @@ const Footer = () => {
             </div>
             <div className="column is-4 social">
               <a title="facebook" href="https://www.facebook.com/groups/nemyco">
-                <img
-                  src={facebook}
-                  alt="Facebook"
-                  style={socialLinkStyles}
-                />
+                <span className="icon">
+                  <i className="fab fa-facebook" style={socialLinkStyles}></i>
+                </span>
               </a>
               <a title="instagram" href="https://www.instagram.com/nebmyco/">
-                <img
-                  src={instagram}
-                  alt="Instagram"
-                  style={socialLinkStyles}
-                />
+                <span className="icon">
+                  <i className="fab fa-instagram" style={socialLinkStyles}></i>
+                </span>
               </a>
               <a title="youtube" href="https://www.youtube.com/channel/UCH8awFI3fmHrWhSgAPI26Kw">
-                <img
-                  src={youtube}
-                  alt="YouTube"
-                  style={socialLinkStyles}
-                />
+              <span className="icon">
+                  <i className="fab fa-youtube" style={socialLinkStyles}></i>
+                </span>
               </a>
               <a title="discord" href="https://discord.gg/bkHTemVyNP">
-                <img
-                  src={discord}
-                  alt="Discord"
-                  style={socialLinkStyles}
-                />
+                <span className="icon">
+                  <i className="fab fa-discord" style={socialLinkStyles}></i>
+                </span>
               </a>
             </div>
           </div>

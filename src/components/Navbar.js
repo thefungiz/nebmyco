@@ -1,11 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/NMS-trans.png'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import youtube from '../img/social/youtube.svg'
-import discord from '../img/social/discord.png'
-import donate from '../img/donate.svg'
 
 const Navbar = class extends React.Component {
   constructor() {
