@@ -8,7 +8,7 @@
     "@ericz1803/react-google-calendar": "^4.2.1",
     "bulma": "^0.9.3",
     "emailjs-com": "^3.2.0",
-    "gatsby": "^2.20.35",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.3.5",
     "gatsby-plugin-netlify": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.2.5",

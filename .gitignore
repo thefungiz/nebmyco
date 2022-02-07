@@ -3,7 +3,6 @@
 node_modules
 .cache/
 .idea/
-package-lock.json
 # Build directory
 public/
 static/admin/*.bundle.*
