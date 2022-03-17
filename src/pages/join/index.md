@@ -9,10 +9,8 @@ It's the best time ever to be a mycophile in Nebraska! Membership benefits inclu
 * Quarterly newsletter
 * Free events, workshops, and forays
 * Monthly bulletins of upcoming and past events
-* Anniversary party/Christmas party
-* Online CyberMyco meetups every even month
-* In-person meetups every odd month
-* Participation in the Nebraska Fungal Diversity Project
+* Monthly presentations/workshops
+* Participation in the Nebraska Voucher Program
 
 To become a member of the Nebraska Mycological Society, please fill out 'Step 1' and 'Step 2' below. You contributions will enable us to provide great mycological content to our community. Mush love! 🍄
 
