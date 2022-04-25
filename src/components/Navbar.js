@@ -94,11 +94,6 @@ const Navbar = class extends React.Component {
                   <i className="fab fa-youtube fa-2x"></i>
                 </span>
               </a>
-              <a className="navbar-item" title="Discord" href="https://discord.gg/bkHTemVyNP">
-              <span className="icon">
-                  <i className="fab fa-discord fa-2x"></i>
-                </span>
-              </a>
             </div>
           </div>
         </div>
