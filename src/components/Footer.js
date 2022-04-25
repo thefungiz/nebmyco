@@ -74,11 +74,6 @@ const Footer = () => {
                   <i className="fab fa-youtube" style={socialLinkStyles}></i>
                 </span>
               </a>
-              <a title="discord" href="https://discord.gg/bkHTemVyNP">
-                <span className="icon">
-                  <i className="fab fa-discord" style={socialLinkStyles}></i>
-                </span>
-              </a>
             </div>
           </div>
         </div>
