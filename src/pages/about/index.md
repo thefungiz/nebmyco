@@ -6,7 +6,7 @@ title: About the Nebraska Mycological Society
 ---
 ### Mission & Vision
 
-We are a 501c3 non-profit based out of Nebraska that is dedicated to the education, identification, and foraging of wild mushrooms. We are made up of fungi enthusiasts who share information about mushrooms through online forums, forays, classes, and meetings. We are affiliated with the North American Mycological Association (NAMA). Join us at our next meeting or contact us to learn more!
+We are a 501(c)(3) non-profit based out of Nebraska that is dedicated to the education, identification, and foraging of wild mushrooms. We are made up of fungi enthusiasts who share information about mushrooms through online forums, forays, classes, and meetings. We are affiliated with the North American Mycological Association (NAMA). Join us at our next meeting or contact us to learn more!
 
 ### History
 
