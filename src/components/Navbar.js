@@ -73,9 +73,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 <h2>Blog</h2>
               </Link>
-              <a className="navbar-item" title="Shop" href="https://www.etsy.com/shop/NebMycoSociety">
-                <h2>Shop</h2>
-              </a>
+              //<a className="navbar-item" title="Shop" href="https://www.etsy.com/shop/NebMycoSociety">
+             //   <h2>Shop</h2>
+             //</a>
               <a className="navbar-item" title="Donate" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
                 <h2>Donate</h2>
               </a>
