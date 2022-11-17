@@ -187,7 +187,7 @@ const MembershipFormTile = () => {
 
   return (
     <div className="box" ref={informationBoxRef}>
-      <h2 className="title">Step 1 - Your Information</h2>
+      <h2 className="title">Member Information</h2>
       {boxContent}
     </div>
   )
