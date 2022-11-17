@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
 title: Nebraska Mycological Society
-image: /img/img_0204.jpg
+image: /img/img_0204.webp
 heading: Welcome to the Nebraska Mycological Society!
-subheading: Fungi enthusiasts from the Cornhusker State
+subheading: We are a community of mycophiles from Nebraska and surrounding areas.
 mainpitch:
   title: Who are we? We're the fungiz and fungalz
   description: >
@@ -24,23 +24,23 @@ description: We are a group of mushroom enthusiasts working to bring the
   mushroom lovers together in our great state of Nebraska.
 intro:
   blurbs:
-    - image: /img/about-us.png
+    - image: /img/about-us.webp
       title: About
       link: /about/
       text: |
         Learn about the history, mission, and goals of our group.
-    - image: /img/20181002_131142.jpg
+    - image: /img/20181002_131142.webp
       title: Join
       link: /join/
       text: >
         Join our communication channels to learn about upcoming meetings and
         ways you can get involved.
-    - image: /img/20190701_125249.jpg
+    - image: /img/20190701_125249.webp
       title: Calendar
       link: /calendar/
       text: |
         Check out the group's activities and upcoming events.
-    - image: /img/img_2911.jpg
+    - image: /img/img_2911.webp
       title: Blog
       link: /blog/
       text: |
@@ -60,11 +60,11 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/products-grid3.webp
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/products-grid2.webp
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/products-grid1.webp
 ---
