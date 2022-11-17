@@ -76,7 +76,7 @@ const MembershipFormTile = () => {
   (
     <div>
       <p className="subtitle">Congratulations!</p>
-      <p>Thanks for filling out the signup form. You should receive an email from us within the next few days. Welcome to the club!</p>
+      <p>Thanks for filling out the signup form. You should receive an email from us shortly. Welcome to the club!</p>
     </div>
   )
   : (
