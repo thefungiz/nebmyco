@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Nebraska Mycological Society',
     description:
-      'Community of fungi enthusiasts in the Cornhusker state.',
+      'We are a community of mycophiles in the great state of Nebraska.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
