@@ -3,7 +3,7 @@ templateKey: index-page
 title: Nebraska Mycological Society
 image: /img/img_0204.webp
 heading: Welcome!
-subheading: We are a community of mycophiles from Nebraska and surrounding areas.
+subheading: Welcome to NMS! We are a community of mycophiles from Nebraska and surrounding areas.
 mainpitch:
   title: Who are we? We're the fungiz and fungalz
   description: >
