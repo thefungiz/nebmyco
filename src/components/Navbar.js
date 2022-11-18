@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <img style={{height: '4em'}} alt="logo" className="navbar-logo-img" src={logo} />
-              <h1 style={{textWeight: 'bold'}}>Nebraska Mycological Society</h1>
+              <h1 style={{fontWeight: 'bold'}}>Nebraska Mycological Society</h1>
             </Link>
             {/* Hamburger menu */}
             {/* eslint-disable-next-line */}
