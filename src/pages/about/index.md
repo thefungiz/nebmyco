@@ -2,7 +2,7 @@
 templateKey: about-page
 path: /about
 image: /img/IMG_9658.jpeg
-title: About the Nebraska Mycological Society
+title: About
 ---
 ### Mission & Vision
 
