@@ -2,12 +2,12 @@
 templateKey: join-page
 path: /join
 image: /img/img_2911.jpg
-title: Join the Nebraska Mycological Society
+title: Join
 ---
 ### Membership
 It's the best time ever to be a mycophile in Nebraska! Memberships are free and benefits include:
-* Newsletter
 * Annual event, workshops, and forays
+* Newsletter
 * T-Shirts and other merch
 * Participation in the Nebraska Voucher Program
 
