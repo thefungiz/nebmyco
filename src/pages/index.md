@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Nebraska Mycological Society
 image: /img/img_0204.webp
-heading: Welcome to the Nebraska Mycological Society!
+heading: Welcome!
 subheading: We are a community of mycophiles from Nebraska and surrounding areas.
 mainpitch:
   title: Who are we? We're the fungiz and fungalz
