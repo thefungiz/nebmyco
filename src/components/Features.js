@@ -7,11 +7,11 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
       <div key={item.text} className="column is-6">
-        <section className="section">
+        <section className="has-text-centered" className="section">
           <Link
             to={item.link}
           >
-            <div className="has-text-centered">
+            <div>
               <div
                 style={{
                   width: '240px',
