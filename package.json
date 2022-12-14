@@ -4,7 +4,7 @@
   "version": "1.4.0",
   "author": "Derek Zeller",
   "dependencies": {
-    "@emotion/react": "^11.6.0",
+    "@emotion/react": "^11.10.5",
     "@ericz1803/react-google-calendar": "^4.2.2",
     "bulma": "^0.9.4",
     "emailjs-com": "^3.2.0",
