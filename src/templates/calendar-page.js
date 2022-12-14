@@ -1,11 +1,11 @@
-import React from 'react'
+import * as React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Calendar from '../components/MycoCalendar'
 
-export const CalendarPageTemplate = ({ title, image, content, contentComponent }) => {
+const CalendarPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (

@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import { getImage } from "gatsby-plugin-image";
@@ -8,7 +8,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import FullWidthImage from "../components/FullWidthImage";
 
-export const IndexPageTemplate = ({
+const IndexPageTemplate = ({
   image,
   title,
   heading,

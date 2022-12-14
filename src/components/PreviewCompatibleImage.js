@@ -6,7 +6,6 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { borderRadius: "100%" };
 
   const { alt = "", childImageSharp, image } = imageInfo;
-  console.log({imageInfo})
 
   if (!!image && !!image.childImageSharp) {
     return (
