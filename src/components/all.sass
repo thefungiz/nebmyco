@@ -2,13 +2,14 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+// $kaldi-red: #fff
+// $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
-$body-color: #333
-$black: #2b2523
+$neb-blue: #0F2F7C
+$primary: $neb-blue
+// $primary-invert: $kaldi-red-invert
+// $body-color: #333
+// $black: #2b2523
 
 span.increase
   height: 3px !important
@@ -69,10 +70,10 @@ div.blog-post-content img
   border-radius: .25rem
   text-decoration: none
   font-weight: 700
-  color: #CC3700
+  color: black
   text-align: center
-  -webkit-box-shadow: inset 0 0 0 2px #CC3700
-  box-shadow: inset 0 0 0 2px #f40
+  -webkit-box-shadow: inset 0 0 0 2px black
+  box-shadow: inset 0 0 0 2px black
   -webkit-transition: all .15s ease
   transition: all .15s ease
 
@@ -101,13 +102,13 @@ footer.footer
   background-color: transparent
 
 //Menu overrides
-$menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color:	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
-$menu-label-color: $white-ter
+// $menu-item-color: $white-ter
+// $menu-item-hover-color: $black !important
+// $menu-item-hover-background-color: $black
+// $menu-item-active-color: $kaldi-red-invert
+// $menu-item-active-background-color:	$kaldi-red-invert
+// $menu-list-border-left: 1px solid $kaldi-red-invert
+// $menu-label-color: $white-ter
 
 //https://thomas.vanhoutte.be/miniblog/make-google-calendar-iframe-responsive/
 .calendarWrapper
@@ -145,8 +146,8 @@ $menu-label-color: $white-ter
   display: inline
 
 // blog roll
-.blog-list-item.is-featured
-  background-color: #d6400033
+// .blog-list-item.is-featured
+//   background-color: #d6400033
 
 .blog-list-item header
   display: flex
@@ -168,7 +169,7 @@ a
   text-decoration: none
 
 a:hover
-  color: red
+  color: $neb-blue
   text-decoration: underline
 
 // responsiveness
@@ -185,7 +186,7 @@ a:hover
     margin: 0 0 1em
 
 .navbar
-  background-color: #0F2F7C !important
+  background-color: $neb-blue !important
   border-bottom: 1em #F2CC5F solid
 
 .navbar-brand .navbar-item.logo
