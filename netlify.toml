@@ -3,6 +3,6 @@
   command = "echo SIGNUP_REPLY_TEMPLATE_ID=$SIGNUP_REPLY_TEMPLATE_ID >> .env.production && echo SERVICE_ID=$SERVICE_ID >> .env.production && echo SIGNUP_SUBMISSION_TEMPLATE_ID=$SIGNUP_SUBMISSION_TEMPLATE_ID >> .env.production && echo USER_ID=$USER_ID >> .env.production && echo SITE_RECAPTCHA_KEY=$SITE_RECAPTCHA_KEY >> .env.production && gatsby build && echo GOOGLE_CAL_API_KEY=$GOOGLE_CAL_API_KEY >> .env.production && gatsby build && echo CALENDAR_ID=$CALENDAR_ID >> .env.production && gatsby build"
   functions = "lambda"
 [build.environment]
-  NODE_VERSION = "12"
+  NODE_VERSION = "18.12.1"
   YARN_VERSION = "1.22.4"
   YARN_FLAGS = "--no-ignore-optional"
