@@ -1,6 +1,6 @@
 ---
 templateKey: calendar-page
 path: /calendar
-image: /img/IMG_1315.jpeg
+image: /img/people/pp_on_trail.jpeg
 title: Calendar
 ---

@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-image: /img/IMG_9658.jpeg
+image: /img/people/pp_foray_2021.jpeg
 title: About
 ---
 ### Mission & Vision
@@ -11,3 +11,5 @@ We are a 501(c)(3) non-profit based out of Nebraska that is dedicated to the edu
 ### History
 
 The Nebraska Mycological Society was incepted in December of 2020 during the lockdown of the COVID-19 pandemic. We started online through Discord, Facebook, and other social media and meetups via Zoom. Spring of 2021 was our first foray at Indian Cave State Park. It was a fantastic event and each person attending brought home a pound of morels! We met up at other parks throughout the mushroom season, including Lake Zorinsky, Hummel Park, Wilderness Park, and Mormon Island State Recreation Area. In the summer of 2021, we incorporated as a non-profit scientific organization to better serve our members and community with monthly presentations/workshops, quarterly publications (The Spore), and seasonal forays.
+
+![Under a Mushroom](/img/people/under_a_mushroom.jpeg "Under a Mushroom")

@@ -3,24 +3,16 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { getImage } from "gatsby-plugin-image";
+import FullWidthImage from "../components/FullWidthImage";
 
 const AboutPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
+  const heroImage = getImage(image) || image;
 
   return (
     <div>
-      <div
-        className="full-width-image margin-top-0 is-hidden-touch"
-        style={{
-          backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`,
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          backgroundAttachment: 'scroll'
-        }}
-      >
-      </div>
+      <FullWidthImage img={heroImage} title={title} subheading="" />
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
@@ -74,9 +66,7 @@ export const aboutPageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
       }
