@@ -1,7 +1,7 @@
 ---
 templateKey: join-page
 path: /join
-image: /img/people/pp_event_2022.jpeg
+image: /img/people/pp_event_2022.webp
 title: Join
 ---
 ### Membership

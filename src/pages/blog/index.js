@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0 is-hidden-touch"
           style={{
-            backgroundImage: `url('/img/people/mushroom_circle.jpeg')`
+            backgroundImage: `url('/img/people/mushroom_circle.webp')`
           }}
         >
         </div>
