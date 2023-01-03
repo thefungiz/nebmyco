@@ -5,10 +5,9 @@ image: /img/people/pp_event_2022.webp
 title: Join
 ---
 ### Membership
-It's the best time ever to be a mycophile in Nebraska! Memberships are free and benefits include:
+It's the best time ever to be a mycophile in Nebraska! Memberships are free and we offer:
 * Annual event, workshops, and forays
 * Newsletter
-* T-Shirts and other merch
 * Participation in the Nebraska Voucher Program
 
 We are a donation fueled, non-profit organization with a mission to promote mycological education and community-building opportunites to mycophiles in Nebraska and surrounding areas. Please fill out the following form to join and a welcome email will be sent to you with an invite to our Discord discussion platform. 
