@@ -11,7 +11,7 @@ tags:
 ![Luke Norris](/img/people/luke-norris.webp "Luke Norris")
 
 ### When
-Sun, February 19, 2:00pm – 3:30pm
+Sun, February 19, 2:00pm – 3:30pm Central Time
 
 ### Where
 Prairie Pines Nature Preserve, 3000-4498 N 112th St, Lincoln, NE 68527, USA (<a style="color:blue; font-weight:bold" target="_blank" href="https://maps.google.com/maps?hl=en&q=Prairie%20Pines%20Nature%20Preserve%2C%203000-4498%20N%20112th%20St%2C%20Lincoln%2C%20NE%2068527%2C%20USA">map</a>)
