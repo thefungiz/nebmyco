@@ -2,19 +2,22 @@ import React from 'react'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
+import FullWidthImage from '../../components/FullWidthImage'
 
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
+        <FullWidthImage img="/img/people/mushroom_circle.webp" title="" subheading="" />
         <div
-          className="full-width-image-container margin-top-0 is-hidden-touch"
+          className="full-width-image-container margin-top-0"
           style={{
             backgroundImage: `url('/img/people/mushroom_circle.webp')`
           }}
         >
         </div>
         <section className="section">
+          <h2 class="title is-size-3 has-text-weight-bold is-bold-light">Recent Blog Posts</h2>
           <div className="container">
             <div className="content">
               <BlogRoll />
