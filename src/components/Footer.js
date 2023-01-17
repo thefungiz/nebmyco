@@ -49,6 +49,11 @@ const Footer = () => {
                       Blog
                       </Link>
                   </li>
+                  <li>
+                    <a className="navbar-item" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
+                      Donate
+                      </a>
+                  </li>
                 </ul>
               </section>
             </div>
