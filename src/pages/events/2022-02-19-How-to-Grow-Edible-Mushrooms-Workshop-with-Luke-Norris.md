@@ -18,3 +18,7 @@ Prairie Pines Nature Preserve, 3000-4498 N 112th St, Lincoln, NE 68527, USA (<a 
 Luke Norris is a professional beekeeper. He is the Apiary Manager at UNL Bee Lab. He has been a hobby mycologist since 2016. He grows edible and medicinal mushrooms as a hobby and likes to go foraging for wild mushrooms.
 
 ![Luke Norris](/img/people/luke-norris.webp "Luke Norris")
+
+This event is provided to the public for free by the Nebraska Mycological Society. 
+
+NMS is a donation-fueled, non-profit organization. If you find that this event brings value to your mycology experience, please consider donating! Even small donations make a big difference in continuing myco-related education and community building in our state of Nebraska. Mush love!
