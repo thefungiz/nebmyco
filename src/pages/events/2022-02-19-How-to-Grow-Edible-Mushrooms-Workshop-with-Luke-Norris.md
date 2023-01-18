@@ -21,4 +21,4 @@ Luke Norris is a professional beekeeper. He is the Apiary Manager at UNL Bee Lab
 
 This event is provided to the public for free by the Nebraska Mycological Society. 
 
-NMS is a donation-fueled, non-profit organization. If you find that this event brings value to your mycology experience, please consider donating! Even small donations make a big difference in continuing myco-related education and community building in our state of Nebraska. Mush love!
+NMS is a donation-fueled, non-profit organization. If you find that this event brings value to your mycology experience, please consider <a style="color:blue; font-weight:bold" target="_blank" href="https://www.google.com/url?q=https://www.paypal.com/donate?hosted_button_id%3DHPX3GSKB5VEXL&sa=D&source=calendar&usd=2&usg=AOvVaw188IGgDwIyAVu7LK0pEVbI">donating</a>! Even small donations make a big difference in continuing myco-related education and community building in our state of Nebraska. Mush love!
