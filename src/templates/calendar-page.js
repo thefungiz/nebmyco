@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import Calendar from '../components/MycoCalendar'
 import { getImage } from "gatsby-plugin-image";
 import FullWidthImage from "../components/FullWidthImage";
+import EventsRoll from '../components/EventsRoll';
 
 const CalendarPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -23,7 +23,11 @@ const CalendarPageTemplate = ({ title, image, content, contentComponent }) => {
                   {title}
                 </h2>
                 <PageContent className="content" content={content} />
-                <Calendar />
+                <h3 className="has-text-weight-semibold is-size-4">
+                  Upcoming Events
+                </h3>
+                <br/>
+                <EventsRoll />
               </div>
             </div>
           </div>
