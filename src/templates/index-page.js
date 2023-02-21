@@ -7,13 +7,13 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import FullWidthImage from "../components/FullWidthImage";
+import EventsRoll from '../components/EventsRoll';
 
 const IndexPageTemplate = ({
   image,
   title,
   heading,
   subheading,
-  mainpitch,
   description,
   intro,
 }) => {
@@ -37,6 +37,17 @@ const IndexPageTemplate = ({
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      Upcoming Events
+                    </h3>
+                    <EventsRoll />
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/calendar">
+                        See more
+                      </Link>
+                    </div>
+                  </div>
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
@@ -63,7 +74,6 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -80,7 +90,6 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -110,10 +119,6 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
         description
         intro {
           blurbs {

@@ -11,6 +11,7 @@ const EventTemplate = ({
   description,
   tags,
   title,
+  image,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -39,6 +40,7 @@ EventTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  image: PropTypes.string,
 }
 
 const Event = ({ data }) => {
@@ -56,6 +58,18 @@ const Event = ({ data }) => {
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
+            />
+            <meta
+              property="og:title"
+              content={`${post.frontmatter.title}`}
+            />
+            <meta
+              property="og:description"
+              content={`${post.frontmatter.description}`}
+            />
+            <meta
+              property="og:image"
+              content={`${post.frontmatter.image}`}
             />
           </Helmet>
         }
