@@ -11,7 +11,7 @@ const EventTemplate = ({
   description,
   tags,
   title,
-  image,
+  featuredimage,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -40,7 +40,7 @@ EventTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  image: PropTypes.string,
+  featuredimage: PropTypes.string,
 }
 
 const Event = ({ data }) => {
@@ -69,7 +69,7 @@ const Event = ({ data }) => {
             />
             <meta
               property="og:image"
-              content={`${post.frontmatter.image}`}
+              content={post.frontmatter.featuredimage.publicURL}
             />
           </Helmet>
         }
@@ -98,6 +98,12 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          publicURL
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }

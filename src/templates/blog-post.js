@@ -57,6 +57,18 @@ const BlogPost = ({ data }) => {
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta
+              property="og:title"
+              content={`${post.frontmatter.title}`}
+            />
+            <meta
+              property="og:description"
+              content={`${post.frontmatter.description}`}
+            />
+            <meta
+              property="og:image"
+              content={post.frontmatter.featuredimage.publicURL}
+            />
           </Helmet>
         }
         tags={post.frontmatter.tags}
@@ -84,6 +96,12 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          publicURL
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }
