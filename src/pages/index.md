@@ -4,8 +4,7 @@ title: Nebraska Mycological Society
 image: /img/people/christmas_party.webp
 heading: Welcome!
 subheading: Welcome to NMS! We are a community of mycophiles from Nebraska and surrounding areas.
-description: We are a group of mushroom enthusiasts working to bring the
-  mushroom lovers together in our great state of Nebraska.
+description: We are a community of mushroom enthusiasts dedicated to promoting the study, cultivation, and appreciation of fungi. Whether you are a seasoned mycophile or just starting to explore the fascinating world of mushrooms, we invite you to join us in learning more about these mysterious and essential organisms. Our website is a hub of information on local events, forays, educational resources, and more. We hope to inspire curiosity and wonder in the incredible diversity of fungi and their role in our world.
 intro:
   blurbs:
     - image: /img/NMS-trans.webp
@@ -29,10 +28,4 @@ intro:
       link: /blog/
       text: |
         Articles on Nebraska fungi.
-  heading: What we offer
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-    blandit tellus quis ultrices placerat. Ut sit amet justo tempor dui ultrices
-    tempor id at diam. Nulla lobortis a ex eget porttitor. Nam maximus libero
-    vel ligula dapibus, ac convallis felis gravida. Vivamus augue ligula,
-    laoreet quis lectus ac, bibendum mollis metus. "
 ---

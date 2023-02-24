@@ -76,6 +76,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 <h2>Blog</h2>
               </Link>
+              <Link className="navbar-item" to="https://forms.gle/rXPAqG81yALSjDoi6">
+                <h2>Contact Us</h2>
+              </Link>
               <div className="navbar-item">
                 <a title="Donate" className="button is-rounded" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
                   <h2 className='navbar-item'>
