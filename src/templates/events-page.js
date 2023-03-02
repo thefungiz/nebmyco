@@ -1,6 +1,6 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { getImage } from "gatsby-plugin-image";
@@ -28,6 +28,9 @@ const EventsPageTemplate = ({ title, image, content, contentComponent }) => {
                 </h3>
                 <br/>
                 <EventsRoll />
+                <div className="column is-12 has-text-centered">
+                  <Link className="btn" to="/past-events">Past events</Link>
+                </div>
               </div>
             </div>
           </div>
