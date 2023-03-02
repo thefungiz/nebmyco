@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
 
-const TagsPage = ({
+const CategoriesPage = ({
   data: {
     allMarkdownRemark: { group },
     site: {
@@ -13,24 +13,25 @@ const TagsPage = ({
   },
 }) => (
   <Layout>
-    <section className="section">
-      <Helmet title={`Tags | ${title}`} />
-      <div className="container content">
+    <Helmet title={`Categories | ${title}`} />
+    <section className="section section--gradient">
+      <div className="container">
         <div className="columns">
-          <div
-            className="column is-10 is-offset-1"
-            style={{ marginBottom: '6rem' }}
-          >
-            <h1 className="title is-size-2 is-bold-light">Tags</h1>
-            <ul className="taglist">
-              {group.map((tag) => (
-                <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                    {tag.fieldValue} ({tag.totalCount})
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <div className="column is-10 is-offset-1">
+            <div className="section">
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Categories 🍄
+              </h2>
+              <ul className="taglist">
+                {group.map((tag) => (
+                  <li key={tag.fieldValue}>
+                    <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                      {tag.fieldValue} ({tag.totalCount})
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -38,10 +39,10 @@ const TagsPage = ({
   </Layout>
 )
 
-export default TagsPage
+export default CategoriesPage
 
 export const tagPageQuery = graphql`
-  query TagsQuery {
+  query CategoriesQuery {
     site {
       siteMetadata {
         title

@@ -6,7 +6,8 @@ description: Enjoy elaborate drawings and detailed descriptions of the main grou
 featuredpost: true
 featuredimage: /img/genera.png
 tags:
-  - mushrooms genus drawings
+  - identification
+  - art
 ---
 
 Click the image below to view the PDF.

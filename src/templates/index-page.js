@@ -39,7 +39,7 @@ const IndexPageTemplate = ({
                   <Features gridItems={intro.blurbs} />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      Upcoming Events
+                      Upcoming Events 🍄
                     </h3>
                     <EventsRoll />
                     <div className="column is-12 has-text-centered">
@@ -50,7 +50,7 @@ const IndexPageTemplate = ({
                   </div>
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
+                      Latest stories 🍄
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">

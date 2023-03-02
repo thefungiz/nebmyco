@@ -6,7 +6,8 @@ description: An overview of the most toxic Nebraska mushrooms by Chance Brueggem
 featuredpost: true
 featuredimage: /img/Destroying_Angel.png
 tags:
-  - amanita galerina mushroom identification
+  - identification
+  - poisonous mushrooms
 ---
 
 The Destroying Angel (*Amanita bisporigera*) is a rather elegant looking mushroom, sporting all white on all its features. This mushroom belongs to a group of fungi called Amanitas, which the majority possess: a cap, sometimes with patchy warts, gills that are often pale, crowded, and free from the stem, white spore prints, stems with a ring zone and an enlarged base (sometimes cup-like) called a volva. Many members of this group are toxic if consumed, and a handful of them are deadly toxic. The Destroying Angel is one of the subsets that is fatal when eaten. Though amanitas can be rather tough to identify, *A bisporigera* is an exception.

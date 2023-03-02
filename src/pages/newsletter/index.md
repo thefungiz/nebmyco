@@ -2,7 +2,7 @@
 templateKey: newsletter-page
 path: /newsletter
 image: /img/people/small_oysters.webp
-title: NMS Newsletter - The Spore
+title: NMS Newsletter - The Spore 🍄
 ---
 The Spore is our quarterly publication written and edited by our secretary and life-long mycophile Denise Wally. It covers a range of topics within the realm of mycophilia, from cultivation to dying fabrics with fungi. Please enjoy reading about interesting myco-related news, mushroom recipes, mycologist interviews, and much more!
 

@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
-class TagRoute extends React.Component {
+class CategoryRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map((post) => (
@@ -33,7 +33,7 @@ class TagRoute extends React.Component {
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
                 <p>
-                  <Link to="/tags/">Browse all tags</Link>
+                  <Link to="/tags/">Browse all categories</Link>
                 </p>
               </div>
             </div>
@@ -44,10 +44,10 @@ class TagRoute extends React.Component {
   }
 }
 
-export default TagRoute
+export default CategoryRoute
 
 export const tagPageQuery = graphql`
-  query TagPage($tag: String) {
+  query CategoryPage($tag: String) {
     site {
       siteMetadata {
         title

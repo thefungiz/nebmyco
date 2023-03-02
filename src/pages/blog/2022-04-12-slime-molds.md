@@ -6,7 +6,8 @@ description: A close up adventure into the fascinating world of slime molds by G
 featuredpost: true
 featuredimage: /img/slime-molds.png
 tags:
-  - native nebraska slime molds
+  - identification
+  - slime molds
 ---
 
 [![](/img/slime-molds-pdf-view.png)](https://drive.google.com/file/d/1TNTdwmh92z0QNOLfLOA9xIbNRmtnEwOt/view?usp=sharing)

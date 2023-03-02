@@ -24,7 +24,7 @@ const JoinPageTemplate = ({ title, image, content, contentComponent }) => {
                 </h2>
                 <PageContent className="content" content={content} />
                 <MembershipFormTile></MembershipFormTile>
-                <p>Any issues with this page? Please contact nebmyco@gmail.com for assistance. Thanks!</p>
+                <p>Any issues with this page? Please <a style={{color: 'blue', fontWeight: 'bold'}} href="https://forms.gle/rXPAqG81yALSjDoi6">contact us</a> for assistance. Thanks!</p>
               </div>
             </div>
           </div>

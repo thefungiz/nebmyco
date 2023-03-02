@@ -2,7 +2,7 @@
 templateKey: events-page
 path: /events
 image: /img/people/pp_on_trail.webp
-title: Events
+title: Events 🍄
 redirect_from:
   - /calendar
 ---

@@ -4,6 +4,10 @@ title: Dyeing Natural Fibers with Lobster Mushrooms
 date: 2023-05-07
 description: Denise Wally and Rebecca Chandler will teach participants how to use lobster mushrooms (plus examples of a few others) to dye wool yarn and silk fabric. We use mordant to make the dyes deeper and colorfast. We will also alter the pH to get a different color palette. 
 featuredimage: /img/mushroom_dyeing.webp
+tags:
+  - workshop
+  - fiber dyeing
+  - art
 redirect_from:
   - /events/2022-05-07-Dyeing-Natural-Fibers-with-Lobster-Mushrooms
 ---

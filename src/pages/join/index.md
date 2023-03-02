@@ -2,7 +2,7 @@
 templateKey: join-page
 path: /join
 image: /img/people/pp_event_2022.webp
-title: Join
+title: Join 🍄
 ---
 ### Membership
 It's the best time ever to be a mycophile in Nebraska! Memberships are free and we offer:

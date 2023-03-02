@@ -2,7 +2,7 @@
 templateKey: about-page
 path: /about
 image: /img/people/pp_foray_2021.webp
-title: About
+title: About 🍄
 ---
 ### Mission & Vision
 
