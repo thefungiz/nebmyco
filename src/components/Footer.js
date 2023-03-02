@@ -35,8 +35,8 @@ const Footer = () => {
                       </Link>
                   </li>
                   <li>
-                    <Link className="navbar-item" to="/calendar">
-                      Calendar
+                    <Link className="navbar-item" to="/events">
+                      Events
                       </Link>
                   </li>
                   <li>

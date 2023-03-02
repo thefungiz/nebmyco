@@ -7,7 +7,7 @@ import { getImage } from "gatsby-plugin-image";
 import FullWidthImage from "../components/FullWidthImage";
 import EventsRoll from '../components/EventsRoll';
 
-const CalendarPageTemplate = ({ title, image, content, contentComponent }) => {
+const EventsPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
   const heroImage = getImage(image) || image;
 
@@ -37,18 +37,18 @@ const CalendarPageTemplate = ({ title, image, content, contentComponent }) => {
   )
 }
 
-CalendarPageTemplate.propTypes = {
+EventsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const CalendarPage = ({ data }) => {
+const EventsPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <CalendarPageTemplate
+      <EventsPageTemplate
       image={post.frontmatter.image}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -58,14 +58,14 @@ const CalendarPage = ({ data }) => {
   )
 }
 
-CalendarPage.propTypes = {
+EventsPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default CalendarPage
+export default EventsPage
 
-export const calendarPageQuery = graphql`
-  query CalendarPage($id: String!) {
+export const EventsPageQuery = graphql`
+  query EventsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

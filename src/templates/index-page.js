@@ -43,7 +43,7 @@ const IndexPageTemplate = ({
                     </h3>
                     <EventsRoll />
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/calendar">
+                      <Link className="btn" to="/events">
                         See more
                       </Link>
                     </div>

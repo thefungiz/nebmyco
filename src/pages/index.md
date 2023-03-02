@@ -19,8 +19,8 @@ intro:
         Join our communication channels to learn about upcoming meetings and
         ways you can get involved.
     - image: /img/people/identification.webp
-      title: Calendar
-      link: /calendar/
+      title: Events
+      link: /events/
       text: |
         Check out the group's activities and upcoming events.
     - image: /img/people/pp_event_front_2022.webp

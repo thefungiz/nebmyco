@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Nebraska Mycological Society",
     description:
-      "We are a community of mycophiles in the great state of Nebraska.",
+      "We are a community of mushroom enthusiasts dedicated to promoting the study, cultivation, and appreciation of fungi. Whether you are a seasoned mycophile or just starting to explore the fascinating world of mushrooms, we invite you to join us in learning more about these mysterious and essential organisms. Our website is a hub of information on local events, forays, educational resources, and more. We hope to inspire curiosity and wonder in the incredible diversity of fungi and their role in our world.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -69,6 +69,8 @@ module.exports = {
         purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    'gatsby-redirect-from',
+    "gatsby-plugin-meta-redirect", // must come after 'gatsby-redirect-from'
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };

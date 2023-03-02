@@ -6,6 +6,8 @@ description: Participants will learn how to pasteurize straw and use the vinegar
 featuredimage: /img/people/luke-norris.webp
 tags:
   - cultivation workshop
+redirect_from:
+  - /events/2022-02-19-How-to-Grow-Edible-Mushrooms-Workshop-with-Luke-Norris
 ---
 
 ### When
