@@ -1,7 +1,7 @@
 ---
 templateKey: event-page
 title: How to Grow Edible Mushrooms Workshop with Luke Norris
-date: 2022-02-19
+date: 2023-02-19
 description: Participants will learn how to pasteurize straw and use the vinegar tek method with hardwood fuel pellets to grow oysters and lion's mane mushrooms. Please bring something to take notes with. This event will be indoors.
 featuredimage: /img/people/luke-norris.webp
 tags:

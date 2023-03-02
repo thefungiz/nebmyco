@@ -2,10 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import moment from 'moment';
 
 const EventsRollTemplate = (props) => {
-  
-  const { edges: posts } = props.data.allMarkdownRemark;
+  const { edges } = props.data.allMarkdownRemark;
+  const yesterday = moment().subtract(1, 'day');
+  const posts = Array.from(edges)
+    .filter(({node: x}) => moment(x.frontmatter.date, "MMMM DD, YYYY").isAfter(yesterday));
 
   return (
     <div className="columns is-multiline">
@@ -77,7 +80,7 @@ export default function EventsRoll() {
       query={graphql`
         query EventsRollQuery {
           allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+            sort: { order: ASC, fields: [frontmatter___date] }
             filter: { frontmatter: { templateKey: { eq: "event-page" } } }
           ) {
             edges {

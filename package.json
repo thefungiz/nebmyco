@@ -1,11 +1,10 @@
 {
   "name": "nebmyco",
   "description": "Website for the Nebraska Mycological Society",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": "Derek Zeller",
   "dependencies": {
     "@emotion/react": "^11.10.5",
-    "@ericz1803/react-google-calendar": "^4.2.2",
     "bulma": "^0.9.4",
     "emailjs-com": "^3.2.0",
     "gatsby": "^4.0.0",
