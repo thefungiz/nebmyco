@@ -6,13 +6,21 @@ import Content, { HTMLContent } from '../components/Content'
 import { getImage } from "gatsby-plugin-image";
 import FullWidthImage from "../components/FullWidthImage";
 import EventsRoll from '../components/EventsRoll';
+import { Helmet } from 'react-helmet'
 
 const EventsPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
   const heroImage = getImage(image) || image;
+  const description = "Events from the Nebraska Mycological Society";
 
   return (
     <div>
+      <Helmet>
+        <title>Nebraska Mycological Society | Events</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+      </Helmet>
       <FullWidthImage img={heroImage} title={title} subheading="" />
       <section className="section section--gradient">
         <div className="container">

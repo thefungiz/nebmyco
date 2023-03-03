@@ -1,24 +1,29 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
-import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+
+import { Helmet } from 'react-helmet'
 
 const EventTemplate = ({
   content,
   contentComponent,
   description,
-  tags,
   title,
   featuredimage,
-  helmet,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
     <section className="section">
-      {helmet || ''}
+      <Helmet titleTemplate="%s | Event">
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={featuredimage.publicURL} />
+      </Helmet>
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -39,7 +44,6 @@ EventTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object,
   featuredimage: PropTypes.string,
 }
 
@@ -52,29 +56,9 @@ const Event = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Event">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-            <meta
-              property="og:title"
-              content={`${post.frontmatter.title}`}
-            />
-            <meta
-              property="og:description"
-              content={`${post.frontmatter.description}`}
-            />
-            <meta
-              property="og:image"
-              content={post.frontmatter.featuredimage.publicURL}
-            />
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   )

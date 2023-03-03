@@ -9,15 +9,20 @@ const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
-  tags,
   title,
-  helmet,
+  featuredimage,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
     <section className="section">
-      {helmet || ''}
+      <Helmet titleTemplate="%s | Blog">
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={featuredimage.publicURL} />
+      </Helmet>
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -38,7 +43,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object,
+  featuredimage: PropTypes.object,
 }
 
 const BlogPost = ({ data }) => {
@@ -50,29 +55,9 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-            <meta
-              property="og:title"
-              content={`${post.frontmatter.title}`}
-            />
-            <meta
-              property="og:description"
-              content={`${post.frontmatter.description}`}
-            />
-            <meta
-              property="og:image"
-              content={post.frontmatter.featuredimage.publicURL}
-            />
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   )

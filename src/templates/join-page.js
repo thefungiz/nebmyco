@@ -5,13 +5,20 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content';
 import { getImage } from "gatsby-plugin-image";
 import FullWidthImage from "../components/FullWidthImage";
+import { Helmet } from 'react-helmet';
 
-const JoinPageTemplate = ({ title, image, content, contentComponent }) => {
+const JoinPageTemplate = ({ title, description, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
   const heroImage = getImage(image) || image;
 
   return (
     <div>
+      <Helmet>
+        <title>Nebraska Mycological Society | Join</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+      </Helmet>
       <FullWidthImage img={heroImage} title={title} subheading="" />
       <section className="section section--gradient">
         <div className="container">
@@ -36,6 +43,7 @@ const JoinPageTemplate = ({ title, image, content, contentComponent }) => {
 
 JoinPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
@@ -49,6 +57,7 @@ const JoinPage = ({ data }) => {
         image={post.frontmatter.image}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        description={post.frontmatter.description}
         content={post.html}
       />
     </Layout>
@@ -67,6 +76,7 @@ export const joinPageQuery = graphql`
       html
       frontmatter {
         title
+        description
         image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)

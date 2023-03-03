@@ -8,6 +8,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import FullWidthImage from "../components/FullWidthImage";
 import EventsRoll from '../components/EventsRoll';
+import { Helmet } from 'react-helmet';
 
 const IndexPageTemplate = ({
   image,
@@ -21,6 +22,12 @@ const IndexPageTemplate = ({
 
   return (
     <div>
+      <Helmet>
+        <title>Nebraska Mycological Society | Home</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+      </Helmet>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
         <div className="container">

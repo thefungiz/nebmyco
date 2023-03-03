@@ -3,6 +3,7 @@ templateKey: about-page
 path: /about
 image: /img/people/pp_foray_2021.webp
 title: About 🍄
+description: An overview of the Nebraska Mycological Society's purpose, activities, and initiatives related to the study, conservation, and appreciation of fungi.
 ---
 ### Mission & Vision
 

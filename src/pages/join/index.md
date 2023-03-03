@@ -3,6 +3,7 @@ templateKey: join-page
 path: /join
 image: /img/people/pp_event_2022.webp
 title: Join 🍄
+description: Join the Nebraska Mycological Society
 ---
 ### Membership
 It's the best time ever to be a mycophile in Nebraska! Memberships are free and we offer:
