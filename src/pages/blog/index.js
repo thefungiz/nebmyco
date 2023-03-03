@@ -3,11 +3,19 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 export default class BlogIndexPage extends React.Component {
   render() {
+    const description = "Recent blog posts from the Nebraska Mycological Society";
     return (
       <Layout>
+        <Helmet>
+          <title>Nebraska Mycological Society | Recent Blog Posts</title>
+          <meta name="description" content={description} />
+          <meta property="og:title" content="Recent Blog Posts 🍄" />
+          <meta property="og:description" content={description} />
+        </Helmet>
         <div
           className="full-width-image-container margin-top-0"
           style={{
