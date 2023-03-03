@@ -51,7 +51,7 @@ const PastEventsRollTemplate = (props) => {
                 </p>
               </header>
               <p>
-                {post.excerpt}
+                {post.frontmatter.description}
                 <br />
                 <br />
                 <Link className="button" to={post.fields.slug}>
@@ -85,13 +85,13 @@ export default function PastEventsRoll() {
           ) {
             edges {
               node {
-                excerpt(pruneLength: 400)
                 id
                 fields {
                   slug
                 }
                 frontmatter {
                   title
+                  description
                   templateKey
                   date(formatString: "MMMM DD, YYYY")
                   featuredimage {
