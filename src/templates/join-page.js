@@ -2,8 +2,7 @@ import * as React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
-import MembershipFormTile from '../components/MembershipFormTile'
+import Content, { HTMLContent } from '../components/Content';
 import { getImage } from "gatsby-plugin-image";
 import FullWidthImage from "../components/FullWidthImage";
 
@@ -23,8 +22,7 @@ const JoinPageTemplate = ({ title, image, content, contentComponent }) => {
                   {title}
                 </h2>
                 <PageContent className="content" content={content} />
-                <MembershipFormTile></MembershipFormTile>
-                <p>Any issues with this page? Please <a style={{color: 'blue', fontWeight: 'bold'}} href="https://forms.gle/rXPAqG81yALSjDoi6">contact us</a> for assistance. Thanks!</p>
+                <iframe title="Member Signup" src="https://docs.google.com/forms/d/e/1FAIpQLScb3GAhsti1EkhRDccRitb9rT8PLCCI1iEc1CUfRdCyUyVAog/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
               </div>
             </div>
           </div>
