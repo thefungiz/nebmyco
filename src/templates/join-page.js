@@ -22,7 +22,9 @@ const JoinPageTemplate = ({ title, image, content, contentComponent }) => {
                   {title}
                 </h2>
                 <PageContent className="content" content={content} />
-                <iframe title="Member Signup" src="https://docs.google.com/forms/d/e/1FAIpQLScb3GAhsti1EkhRDccRitb9rT8PLCCI1iEc1CUfRdCyUyVAog/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <div className="column is-12 has-text-centered">
+                  <a className="btn" href="https://forms.gle/1cMVmbGAz9rRSbrP6">Click here to join!</a>
+                </div>
               </div>
             </div>
           </div>
