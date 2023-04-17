@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import { Helmet } from 'react-helmet'
 
@@ -12,6 +13,12 @@ const EventTemplate = ({
   description,
   title,
   featuredimage,
+  formattedDateTime,
+  locationName,
+  locationAddress,
+  locationMapLink,
+  locationEmbeddedSrc,
+  showImage
 }) => {
   const PostContent = contentComponent || Content
 
@@ -32,6 +39,27 @@ const EventTemplate = ({
             </h1>
             <p>{description}</p>
             <div className="blog-post-content"><PostContent content={content} /></div>
+            {showImage && (
+              <GatsbyImage
+                image={featuredimage.childImageSharp.gatsbyImageData}
+                style={{marginTop: "1em"}}
+                alt={title}
+              />
+            )}
+            {formattedDateTime && (
+              <>
+                <h3>When</h3>
+                <p>{formattedDateTime}</p>
+              </>
+            )}
+            {(locationName || locationAddress) && (
+              <>
+                <h3>Where</h3>
+                {locationName && (<p>{locationName}</p>)}
+                {locationAddress && (<p>{locationAddress} {locationMapLink && (<>(<a style={{color:"blue", fontWeight:"bold"}} target="_blank" rel="noreferrer" href={locationMapLink}>map</a>)</>)}</p>)}
+                {locationEmbeddedSrc && (<iframe title="location" src={locationEmbeddedSrc} width="100%" height="450" style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>)}
+              </>
+            )}
           </div>
         </div>
       </div>
@@ -45,6 +73,12 @@ EventTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   featuredimage: PropTypes.string,
+  formattedDateTime: PropTypes.string,
+  locationName: PropTypes.string,
+  locationAddress: PropTypes.string,
+  locationMapLink: PropTypes.string,
+  locationEmbeddedSrc: PropTypes.string,
+  showImage: PropTypes.bool,
 }
 
 const Event = ({ data }) => {
@@ -59,6 +93,12 @@ const Event = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         featuredimage={post.frontmatter.featuredimage}
+        formattedDateTime={post.frontmatter.formattedDateTime}
+        locationName={post.frontmatter.locationName}
+        locationAddress={post.frontmatter.locationAddress}
+        locationMapLink={post.frontmatter.locationMapLink}
+        locationEmbeddedSrc={post.frontmatter.locationEmbeddedSrc}
+        showImage={post.frontmatter.showImage}
       />
     </Layout>
   )
@@ -79,6 +119,12 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        formattedDateTime
+        locationName
+        locationAddress
+        locationMapLink
+        locationEmbeddedSrc
+        showImage
         title
         description
         tags
