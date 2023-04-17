@@ -1,6 +1,6 @@
 ---
 templateKey: event-page
-title: Nature Rendezvous 2023
+title: Prairie Pines - Nature Rendezvous 2023
 date: 2023-06-24
 description: Children, families, and people of all ages can explore nature and experience multiple nature-based activities in the arboretum and along Prairie Pines Nature Preserve Trails. Learn about trees, wildlife, moths, bees, insects, fungus and more! Come early with a picnic lunch to enjoy in the arboretum! (hosted by Prairie Pines)
 featuredimage: /img/people/nature-rendezvous-2023.webp
