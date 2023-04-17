@@ -8,6 +8,8 @@ tags:
   - table
 ---
 
+Learn more about Prairie Pines <a style="color:blue; font-weight:bold" target="_blank" href="https://prairiepines.org/index.html">here</a>.
+
 ![Nature Rendezvous](/img/people/nature-rendezvous-2023.webp "Nature Rendezvous")
 
 ### When
