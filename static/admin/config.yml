@@ -14,16 +14,21 @@ public_folder: /img
 collections:
   - name: "event"
     label: "Event"
-    folder: "src/pages/event"
+    folder: "src/pages/events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Event Date", name: "date", widget: "date"}
+      - {label: "Description (shown in preview)", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Show Image (use true for all new events)", name: "showImage", widget: "boolean"}
+      - {label: "Pretty Datetime (ex. Saturday June 24th, 9 a.m. - 2 p.m. Central)", name: "formattedDateTime", widget: "text"}
+      - {label: "Location Name (ex. Prairie Pines Nature Preserve)", name: "locationName", widget: "text"}
+      - {label: "Location Address (ex. Prairie Pines Nature Preserve)", name: "locationAddress", widget: "text"}
+      - {label: "Location Map Link", name: "locationMapLink", widget: "text"}
+      - {label: "Embedded Map Src", name: "locationEmbeddedSrc", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
