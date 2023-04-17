@@ -2,7 +2,7 @@
 templateKey: event-page
 title: Spring Affair 2023
 date: 2023-04-28
-description: Join us for Landcaster county's annual plant sale and other spring festivities. We will have a table at this event. (hosted by Nebraska Statewide Arboretum)
+description: Join us for Landcaster county's annual plant sale and other spring festivities. NMS will have a table at this event. (hosted by Nebraska Statewide Arboretum)
 featuredimage: /img/people/spring-affiar-2023.webp
 tags:
   - table
