@@ -1,6 +1,6 @@
 ---
 templateKey: event-page
-title: Zorinsky Foray
+title: Zorinsky Foray May 2023
 date: 2023-05-21T12:35:59.159Z
 description: Join us on May 21st at 2 pm Central Time for an exciting mushroom
   foray that will take place in multiple biomes at Zorinsky Lake Park! This
