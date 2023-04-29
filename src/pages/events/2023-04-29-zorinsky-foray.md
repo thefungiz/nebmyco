@@ -7,7 +7,7 @@ description: Join us on May 21st at 2 pm Central Time for an exciting mushroom
   event is perfect for newcomers who want to learn more about wild mushrooms and
   explore the natural beauty of the park.
 featuredimage: /img/img_0204.webp
-showImage: true
+showImage: false
 formattedDateTime: Sunday May 21st, 2:00 PM Central
 locationName: Zorinsky Lake Park (north of the water park)
 locationAddress: 3808 S 156th St, Omaha, NE 68144
