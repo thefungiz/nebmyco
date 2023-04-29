@@ -2,9 +2,10 @@
 templateKey: event-page
 title: Zorinsky Foray
 date: 2023-05-21T12:35:59.159Z
-description: "Join us on May 21st at 2 pm Central Time for an exciting mushroom
-  foray at Zorinsky Lake Park! This event is perfect for newcomers who want to
-  learn more about wild mushrooms and explore the natural beauty of the park. "
+description: Join us on May 21st at 2 pm Central Time for an exciting mushroom
+  foray that will take place in multiple biomes at Zorinsky Lake Park! This
+  event is perfect for newcomers who want to learn more about wild mushrooms and
+  explore the natural beauty of the park.
 featuredimage: /img/img_0204.webp
 showImage: true
 formattedDateTime: Sunday May 21st, 2:00 PM Central
@@ -15,8 +16,6 @@ locationEmbeddedSrc: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.
 tags:
   - foray
 ---
-Our experienced guides will take you on a fun and educational hike through the woods, where you will learn about the different types of mushrooms that grow in the area, including edible and poisonous species. You'll also get a chance to observe the fascinating life cycle of mushrooms and discover their important ecological role in the forest ecosystem.
+Our experienced guides will take you on a fun and educational hike through different habitats, where you will learn about the different types of mushrooms that grow in each environment. You'll have the opportunity to observe and learn about the unique ecological niches that support a diverse range of fungi (weather dependent). Whether it's the shady, moist forests, or the sunny meadows, our guides will help you discover a wide variety of fascinating mushroom species.
 
-No prior knowledge of mushroom identification is necessary - our guides will provide all the necessary equipment and expertise to ensure a safe and informative experience for everyone. You'll also have the opportunity to connect with other mushroom enthusiasts and share your experiences and knowledge.
-
-Don't miss this unique opportunity to explore the fascinating world of mushrooms at Zorinsky Lake Park! Remember to wear comfortable hiking shoes and clothing suitable for the weather. We look forward to seeing you there!
+No prior knowledge of mushroom identification is necessary - our guides will provide all the necessary equipment and expertise to ensure a safe and informative experience for everyone. You'll also have the opportunity to connect with other mushroom enthusiasts and share your experiences and knowledge. Remember to wear comfortable hiking shoes and clothing suitable for the weather. We look forward to seeing you there!
