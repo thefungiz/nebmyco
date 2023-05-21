@@ -39,6 +39,9 @@ const EventsPageTemplate = ({ title, image, content, contentComponent }) => {
                 <div className="column is-12 has-text-centered">
                   <Link className="btn" to="/past-events">Past events</Link>
                 </div>
+                <div className="column is-12 has-text-centered">
+                  <Link className="btn" to="/events/text">Text Version</Link>
+                </div>
               </div>
             </div>
           </div>
