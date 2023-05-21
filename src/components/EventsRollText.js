@@ -15,7 +15,6 @@ const EventsRollTextTemplate = (props) => {
       {posts &&
         posts.map(({ node: post }) => (
           <div key={post.id}>
-            {console.log({post})}
             <h2><b>{post.frontmatter.title} - {post.frontmatter.date}</b></h2>
             <p>{post.frontmatter.description}</p>
             <br />
