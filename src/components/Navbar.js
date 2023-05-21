@@ -79,16 +79,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="https://forms.gle/rXPAqG81yALSjDoi6">
                 <h2>Contact Us</h2>
               </Link>
-              <div className="navbar-item">
-                <a title="Donate" className="button is-rounded" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
-                  <h2 className='navbar-item'>
-                    <span className="icon" style={{color: '#0F2F7C'}}>
-                      <i className="fas fa-donate"></i>
-                    </span>
-                    <span style={{color: 'black'}}>Donate</span>
-                  </h2>
-                </a>
-              </div>
+              <Link className="navbar-item" to="https://givebutter.com/V4vFBB">
+                <h2>Donate</h2>
+              </Link>
               <a className="navbar-item" title="Facebook" href="https://www.facebook.com/groups/nemyco">
                 <span className="icon">
                   <i className="fab fa-facebook fa-2x"></i>
