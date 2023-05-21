@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql, Link, StaticQuery } from 'gatsby'
 import moment from 'moment';
+import { HTMLContent } from '../components/Content'
 
 const EventsRollTextTemplate = (props) => {
   const { edges } = props.data.allMarkdownRemark;
@@ -14,8 +15,14 @@ const EventsRollTextTemplate = (props) => {
       {posts &&
         posts.map(({ node: post }) => (
           <div key={post.id}>
+            {console.log({post})}
             <h2><b>{post.frontmatter.title} - {post.frontmatter.date}</b></h2>
-            <p>{post.frontmatter.description} More details here - <Link to={post.fields.slug}>{`${typeof window !== 'undefined' ? `${window.location.origin}${post.fields.slug}` : ''}`}</Link></p>
+            <p>{post.frontmatter.description}</p>
+            <br />
+            <HTMLContent content={post.html}></HTMLContent>
+            <br />
+            More details here - <Link to={post.fields.slug}>{`${typeof window !== 'undefined' ? `${window.location.origin}${post.fields.slug}` : ''}`}</Link>
+            <br />
             <br />
           </div>
         ))}
@@ -44,6 +51,7 @@ export default function EventsRollText() {
             edges {
               node {
                 id
+                html
                 fields {
                   slug
                 }
