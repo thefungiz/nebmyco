@@ -27,8 +27,8 @@ collections:
       - {label: "Pretty Datetime (ex. Saturday June 24th, 9 a.m. - 2 p.m. Central)", name: "formattedDateTime", widget: "text"}
       - {label: "Location Name (ex. Prairie Pines Nature Preserve)", name: "locationName", widget: "text"}
       - {label: "Location Address (ex. Prairie Pines Nature Preserve)", name: "locationAddress", widget: "text"}
-      - {label: "Location Map Link", name: "locationMapLink", widget: "text"}
-      - {label: "Embedded Map Src", name: "locationEmbeddedSrc", widget: "text"}
+      - {label: "Location Map Link", name: "locationMapLink", widget: "text", required: false}
+      - {label: "Embedded Map Src", name: "locationEmbeddedSrc", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
