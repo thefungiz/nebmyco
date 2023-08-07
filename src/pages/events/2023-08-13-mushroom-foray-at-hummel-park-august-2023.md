@@ -14,6 +14,8 @@ locationName: Hummel Park Day Camp
 locationAddress: 9200 John J Pershing Dr, Omaha, NE 68183
 locationMapLink: https://goo.gl/maps/pN59vhSDZUv1WXGA9
 locationEmbeddedSrc: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483.0374158091107!2d-95.9585387955592!3d41.37355641617661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8793911445763e13%3A0xdf80fd9cb38d8c57!2sHummel%20Park%20Day%20Camp!5e1!3m2!1sen!2sus!4v1691433568691!5m2!1sen!2sus
+redirect_from:
+  - https://www.nebmyco.com/events/2023-08-07-mushroom-foray-at-hummel-park-august-2023/
 ---
 <a style="color:blue;font-weight:bold" target="_blank" href="https://forms.gle/h7jFqE55ZuemRx7Z6">Click here to RSVP</a>
 
