@@ -43,7 +43,7 @@ const TemplateWrapper = ({ children }) => {
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
+        {/* removing to see if it fixes preview problems on iphone <meta property="og:url" content="/" /> */}
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og-image.png`}

@@ -37,6 +37,6 @@ Join us for a guided hike through Hummel Park's lush landscape, where our experi
 
 Come prepared for an adventure-filled morning, surrounded by the beauty of nature and the fascinating world of fungi. Don't miss this chance to deepen your understanding of mushrooms and appreciate the incredible biodiversity Hummel Park has to offer.
 
-Mark your calendars for August 13th and make sure to reserve your spot for this enchanting Mushroom Foray at Hummel Park. We look forward to sharing this enriching experience with you!
+Mark your calendars for August 13th and make sure to reserve your spot for this delightful Mushroom Foray at Hummel Park. We look forward to sharing this enriching experience with you!
 
 *Note: In case of inclement weather, the event may be rescheduled. Please check the website for updates.*
