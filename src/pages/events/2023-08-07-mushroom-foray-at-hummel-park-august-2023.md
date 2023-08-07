@@ -1,6 +1,6 @@
 ---
 templateKey: event-page
-title: Mushroom Foray at Hummel Park - August 2023
+title: Mushroom Foray at Hummel Park - Sunday August 13th, 2023
 date: 2023-08-13T18:27:06.920Z
 description: Calling all nature enthusiasts and mycology aficionados! We are
   thrilled to invite you to an exciting Mushroom Foray at the enchanting Hummel
