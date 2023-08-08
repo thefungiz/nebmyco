@@ -19,6 +19,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
+      - {label: "Draft?", name: "isDraft", widget: "boolean", required: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Event Date", name: "date", widget: "date"}
       - {label: "Description (shown in preview)", name: "description", widget: "text"}

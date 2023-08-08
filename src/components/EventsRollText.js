@@ -7,6 +7,7 @@ const EventsRollTextTemplate = (props) => {
   const { edges } = props.data.allMarkdownRemark;
   const yesterday = moment().subtract(1, 'day');
   const posts = Array.from(edges)
+    .filter(({node: x}) => !x.frontmatter.isDraft)
     .filter(({node: x}) => moment(x.frontmatter.date, "MMMM DD, YYYY").isAfter(yesterday));
 
   return (
@@ -51,6 +52,7 @@ export default function EventsRollText() {
                   title
                   description
                   templateKey
+                  isDraft
                   date(formatString: "MMMM DD, YYYY")
                   featuredimage {
                     childImageSharp {

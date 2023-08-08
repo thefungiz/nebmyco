@@ -17,6 +17,7 @@ const EventTemplate = ({
   locationName,
   locationAddress,
   locationMapLink,
+  isDraft,
   locationEmbeddedSrc,
   showImage
 }) => {
@@ -79,6 +80,7 @@ EventTemplate.propTypes = {
   locationMapLink: PropTypes.string,
   locationEmbeddedSrc: PropTypes.string,
   showImage: PropTypes.bool,
+  isDraft: PropTypes.bool,
 }
 
 const Event = ({ data }) => {
@@ -99,6 +101,7 @@ const Event = ({ data }) => {
         locationMapLink={post.frontmatter.locationMapLink}
         locationEmbeddedSrc={post.frontmatter.locationEmbeddedSrc}
         showImage={post.frontmatter.showImage}
+        isDraft={post.frontmatter.isDraft}
       />
     </Layout>
   )
@@ -125,6 +128,7 @@ export const pageQuery = graphql`
         locationMapLink
         locationEmbeddedSrc
         showImage
+        isDraft
         title
         description
         tags
