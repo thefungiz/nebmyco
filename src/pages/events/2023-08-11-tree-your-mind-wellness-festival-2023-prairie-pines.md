@@ -3,7 +3,7 @@ templateKey: event-page
 title: Tree Your Mind - Wellness Festival 2023 @ Prairie Pines
 date: 2023-09-09T19:59:57.788Z
 description: More details coming soon!
-featuredimage: https://media.discordapp.net/attachments/812345276194881617/1139651831753084948/image.png
+featuredimage: /img/image.png
 showImage: true
 formattedDateTime: Saturday, September 9, 10 am to 4pm (Central)
 locationName: Prairie Pines Nature Preserve
