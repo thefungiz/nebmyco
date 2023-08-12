@@ -2,7 +2,36 @@
 templateKey: event-page
 title: Tree Your Mind - Wellness Festival 2023 @ Prairie Pines
 date: 2023-09-09T19:59:57.788Z
-description: More details coming soon!
+description: >
+  A day to enjoy our deep physical, chemical, and spiritual connection to
+  nature.
+
+  Immerse all of your senses into the wonderful landscape that has been protected with love to be a refuge for all life.
+
+  This fun filled event will be host to a variety of teachings offered by community leaders guiding us towards wellness in many forms.
+
+  Join us for activities like yoga, dance, and other exercises as we strengthen our bodies and celebrate how good it feels to be in the shade of a tree planted long before we arrived.
+
+  Breathe deeply, and let the sights, sounds, and smells of this beautiful place enchant you during one of the mediation, sound bowl, or forest bathing experiences.
+
+  There will be activities for children to play and learn about plants and wildlife, as well as activities and booths for adults to offer students of all ages more insights into topics like herbal plant medicines, crystals, and energy work.
+
+  Feel free to pack a lunch and enjoy a picnic with your local community, or have fun in the arboretum and share a plant based meal or drink offered for purchase by Rutabagas Comfort Food, and Artemis Tea & Botanical.
+
+
+  NebMyco Booth
+
+  There will be specimens of mushrooms to look at and touch, fungi/mushroom bingo, and how to make a spore print. Our volunteers will answer questions and educate participants about the wonderful queendom of Funga.
+
+
+  Mushroom Foray led by Derek Zeller, 11am to 12:30pm 
+
+  Derek will lead the group on a 1.5-hour journey through Prairie Pines, looking for fungi/mushrooms that are currently showing themselves. 
+
+
+  Grow Mushrooms at Home: An Introduction to Cultivating Edible and Medicinal Mushrooms Where You Live by Denise Wally, 2pm
+
+  Denise will cover some of the easier ways to cultivate mushrooms at home, both indoors and outdoors. Methods, sources, and species will be highlighted as well as time for questions, in this 45 min presentation.
 featuredimage: /img/image.png
 showImage: true
 formattedDateTime: Saturday, September 9, 10 am to 4pm (Central)
