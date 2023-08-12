@@ -10,7 +10,7 @@ showImage: true
 formattedDateTime: Saturday, September 9, 10 am to 4pm (Central)
 locationName: Prairie Pines Nature Preserve
 locationAddress: 3100 North 112th St., Lincoln, NE 68527
-locationMapLink: https://goo.gl/maps/P626hehGYy5jj8mA8
+locationMapLink: ""
 locationEmbeddedSrc: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5557.014526954162!2d-96.56598933129173!3d40.844719527575435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796a35ab8f38da9%3A0x35bcb3b13e26b191!2sPrairie%20Pines%20Nature%20Preserve!5e1!3m2!1sen!2sus!4v1691875761400!5m2!1sen!2sus
 ---
 https://www.facebook.com/events/prairie-pines/tree-your-mind-wellness-festival-2023-prairie-pines/639647151077058/
