@@ -1,13 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import { initializeGiveButter } from './Givebutter';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
+  useEffect(() => {
+    initializeGiveButter(window);
+  }, []);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://js.givebutter.com/elements/latest.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div>
       <Helmet>

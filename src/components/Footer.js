@@ -50,7 +50,7 @@ const Footer = () => {
                       </Link>
                   </li>
                   <li>
-                    <a className="navbar-item" href="https://www.paypal.com/donate?hosted_button_id=HPX3GSKB5VEXL">
+                    <a className="navbar-item" href="https://givebutter.com/V4vFBB">
                       Donate
                       </a>
                   </li>
