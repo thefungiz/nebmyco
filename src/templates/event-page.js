@@ -50,8 +50,8 @@ const EventTemplate = ({
                 <p>{formattedDateTime}</p>
               </>
             )}
-            <p>{description}</p>
             <h3>Summary</h3>
+            <p>{description}</p>
             <div className="blog-post-content"><PostContent content={content} /></div>
             {(locationName || locationAddress) && (
               <>
