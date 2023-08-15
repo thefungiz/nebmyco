@@ -34,24 +34,25 @@ const EventTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <div className="blog-post-content"><PostContent content={content} /></div>
-            {showImage && (
+          {showImage && (
               <GatsbyImage
                 image={featuredimage.childImageSharp.gatsbyImageData}
                 style={{marginTop: "1em"}}
                 alt={title}
               />
             )}
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              {title}
+            </h1>
             {formattedDateTime && (
               <>
                 <h3>When</h3>
                 <p>{formattedDateTime}</p>
               </>
             )}
+            <p>{description}</p>
+            <h3>Summary</h3>
+            <div className="blog-post-content"><PostContent content={content} /></div>
             {(locationName || locationAddress) && (
               <>
                 <h3>Where</h3>
