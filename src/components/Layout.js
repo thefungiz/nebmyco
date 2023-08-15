@@ -39,8 +39,7 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         /> */}
-        <meta name="theme-color" content="#FF0000" />
-
+        <meta name="theme-color" content="#0F2F7C" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         {/* removing to see if it fixes preview problems on iphone <meta property="og:url" content="/" /> */}
