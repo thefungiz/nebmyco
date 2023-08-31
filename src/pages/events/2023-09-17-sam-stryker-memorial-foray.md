@@ -18,6 +18,8 @@ locationMapLink: https://goo.gl/maps/rdTHv9155LEuJgTn9
 locationEmbeddedSrc: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6044.520358666777!2d-96.71985541149664!3d40.75630193559789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796955753d9ef53%3A0xa86efef1bd5f30ae!2sWilderness%20Park!5e0!3m2!1sen!2sus!4v1693498054396!5m2!1sen!2sus
 tags:
   - foray
+redirect_from:
+  - /events/2023-08-31-sam-stryker-memorial-foray/
 ---
 Whether you're a seasoned mycophile or just curious about the kingdom of fungi, this event offers an opportunity to connect with like-minded individuals and celebrate Sam's enduring legacy. The centerpiece of the foray will be the guided mushroom hunt, during which participants can uncover a variety of intriguing species that call Wilderness Park home. At 11 am, an identification table will be set up, allowing attendees to learn more about the mushrooms collected during the expedition. Even if you can't make it to the foray itself, you're welcome to join us at 11 am to view the unique specimens that have been found.
 
