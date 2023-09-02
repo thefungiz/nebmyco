@@ -16,7 +16,6 @@ collections:
     label: "Event"
     folder: "src/pages/events"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event-page"}
       - {label: "Title", name: "title", widget: "string"}
