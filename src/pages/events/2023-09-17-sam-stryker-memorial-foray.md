@@ -2,13 +2,7 @@
 templateKey: event-page
 title: Sam Stryker Memorial Foray
 date: 2023-09-17T16:14:27.173Z
-description: Please join us Sunday, September 17th for a mushroom foray in
-  memory of a brilliant mycologist at Wilderness Park in Lincoln, a tribute to
-  the late mycologist Sam Stryker. On the morning of the 17th, from 9 am to
-  noon, we'll embark on an immersive exploration of the park's rich fungal
-  biodiversity. Gathering at the parking lot along Old Cheney Road, enthusiasts
-  and nature lovers will come together to commemorate Sam's passion for mycology
-  and the natural world.
+description:   Please join us Sunday, September 17th for a mushroom foray at Wilderness Park in Lincoln, in tribute to the late mycologist Sam Stryker. Sam's brilliance and curiosity illuminated a space in our community. Meeting at the parking lot along Old Cheney Road, mycophiles and nature lovers will come together to commemorate Sam's passion for mycology and the natural world. From 9 am to noon, we'll embark on an immersive exploration of the park's rich fungal biodiversity.
 featuredimage: /img/a194fe0b-93ea-40d4-b987-5862e93e944e.jpeg
 showImage: true
 formattedDateTime: Sunday, September 17th 9am-noon
@@ -21,6 +15,8 @@ tags:
 redirect_from:
   - /events/2023-08-31-sam-stryker-memorial-foray/
 ---
+<a class="myco-link" target="_blank" href="https://forms.gle/w3bPA7KcXcFbBFX58">Click here to RSVP</a>
+
 Whether you're a seasoned mycophile or just curious about the kingdom of fungi, this event offers an opportunity to connect with like-minded individuals and celebrate Sam's enduring legacy. The centerpiece of the foray will be the guided mushroom hunt, during which participants can uncover a variety of intriguing species that call Wilderness Park home. At 11 am, an identification table will be set up, allowing attendees to learn more about the mushrooms collected during the expedition. Even if you can't make it to the foray itself, you're welcome to join us at 11 am to view the unique specimens that have been found.
 
 In honor of Sam Stryker's memory, let's come together to share his passion and carry forward his love for mycology. As you prepare for the foray, consider bringing a notepad and pen for taking notes, a camera to capture the beauty of the park and its fungi, as well as a basket or bag for collecting specimens (remember to tread lightly and respect the environment). This event is a meaningful way to pay homage to a dear friend, a brilliant mycologist, and to foster a sense of community united by a shared interest in the world of mushrooms.
