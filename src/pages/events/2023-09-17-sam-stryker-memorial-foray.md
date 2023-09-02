@@ -2,7 +2,7 @@
 templateKey: event-page
 title: Sam Stryker Memorial Foray
 date: 2023-09-17T16:14:27.173Z
-description:   Please join us Sunday, September 17th for a mushroom foray at Wilderness Park in Lincoln, in tribute to the late mycologist Sam Stryker. Sam's brilliance and curiosity illuminated a space in our community. Meeting at the parking lot along Old Cheney Road, mycophiles and nature lovers will come together to commemorate Sam's passion for mycology and the natural world. From 9 am to noon, we'll embark on an immersive exploration of the park's rich fungal biodiversity.
+description:   Please join us Sunday, September 17th for a mushroom foray at Wilderness Park in Lincoln, in tribute to the late mycologist Sam Stryker. Sam's brilliance and curiosity illuminated a space in our community. Meeting at the parking lot along Old Cheney Road, mycophiles and nature lovers will come together to commemorate Sam's passion for mycology and the natural world. From 9 am to noon, we'll embark on an immersive exploration of the park's rich fungal biodiversity. Please RSVP on our website so we can understand how many people may be coming.
 featuredimage: /img/a194fe0b-93ea-40d4-b987-5862e93e944e.jpeg
 showImage: true
 formattedDateTime: Sunday, September 17th 9am-noon
