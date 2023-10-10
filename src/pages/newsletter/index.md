@@ -10,6 +10,7 @@ The Spore is our quarterly publication written and edited by our secretary and l
 ### 2023
 1. <a style="color:blue; font-weight:bold" target="_blank" href="https://drive.google.com/file/d/1REaGiskfCwKLg1LkVFw0rekvYA3N44Xc/view?usp=drivesdk">Volume 2.1</a> (March) featuring the State Mushroom Vote, The Last of Us, and mycologist interviews
 1. <a style="color:blue; font-weight:bold" target="_blank" href="https://drive.google.com/file/d/1E-HyH8r1xm4PT9TThRdU2W22DTcbVXcd/view?usp=sharing">Volume 2.2</a> (June) featuring Experiments with Mushroom Dyes, Mycologist Spotlight, Local Happenings, recipes, Myco-News, and more
+1. <a style="color:blue; font-weight:bold" target="_blank" href="https://drive.google.com/file/d/1D-iYV7e4mcaMk4y8e8rnFz5yBrLwYjbM/view?usp=drivesdk">Volume 2.3</a> (October) featuring Huitlacoche, Mycelium Mysteries, Local Happenings, recipes, MycoNews, and more
 
 ### 2022
 1. <a style="color:blue; font-weight:bold" target="_blank" href="https://drive.google.com/file/d/1JvIxyqDdxIu_xxzpnOUjw0eDZ3yvqiSy/view?usp=share_link">Volume 1.1</a> (February) featuring Cultivation Part 1 and Mushroom Dyes
