@@ -19,6 +19,11 @@ We will meet at the **rest area by the entrance** of Indian Cave State Park (ICS
 
 Tentative schedule:
 
+* M﻿eet at 9am to learn about our target genus *Tricoloma*
+* G﻿et on the trails by 9:30am
+* M﻿eet at the collections table at 11am, with your specimens
+* I﻿dentify and tag species from 11am to 12pm
+
 The NAMA MycoBlitz is focusing on the genus *Tricoloma* this round, and we have confirmation that that genus has been found at ICSP. At 9am, one of our mycologists will talk about some of the identifying features of *Tricoloma*. While that is the focus of the MycoBlitz, we are still interested in other species that we find.
 
 This time of year, we probably won’t have to worry too much about insects like ticks and mosquitos, but having some protection is always prudent. Please wear sturdy shoes, as the terrain is quite hilly. We recommend long pants, and layers. Please bring a snack and a water bottle, as there are not any concessions close by. Bring whatever collecting tools you have (mushroom bag, mushroom knife, hard container for small delicate specimens, KOH dropper bottle, etc.)
