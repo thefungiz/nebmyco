@@ -1,7 +1,7 @@
 ---
 templateKey: event-page
 title: MycoBlitz Foray on Saturday, October 21st at Indian Cave State Park
-date: 2023-10-14T13:06:05.134Z
+date: 2023-10-21T13:06:05.134Z
 description: >-
   NebMyco will have a MycoBlitz foray on Saturday, October 21st at Indian Cave
   State Park from 9am to 12pm (noon). 
