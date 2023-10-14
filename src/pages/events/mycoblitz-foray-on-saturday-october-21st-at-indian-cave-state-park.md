@@ -6,7 +6,7 @@ description: >-
   NebMyco will have a MycoBlitz foray on Saturday, October 21st at Indian Cave
   State Park from 9am to 12pm (noon). 
 
-  NAMA's (North American Mycological Association) fall MycoBlitz started yesterday (October 13) and continues until the 22nd! This foray is an excellent citizen science opportunity! 
+  NAMA's (North American Mycological Association) fall MycoBlitz started October 13 and continues until the 22nd! This foray is an excellent citizen science opportunity! 
 featuredimage: /img/icsp-map.webp
 showImage: true
 formattedDateTime: Saturday October 21, 9 am to 12 pm Central
