@@ -17,7 +17,7 @@ locationEmbeddedSrc: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1666.
 ---
 We will meet at the **rest area by the entrance** of Indian Cave State Park (ICSP) at 9am. If we change locations, we will post directions to our location at the park. This is also the time of Haunted Hallow at ICSP, so there might be more people than usual, and parking may be more difficult.
 
-P﻿lease RSVP here - https://forms.gle/JnyYHkJoo7tzqQh4A
+<a style="color:blue; font-weight:bold" target="_blank" href="https://forms.gle/JnyYHkJoo7tzqQh4A">Register here!</a>
 
 Tentative schedule:
 
