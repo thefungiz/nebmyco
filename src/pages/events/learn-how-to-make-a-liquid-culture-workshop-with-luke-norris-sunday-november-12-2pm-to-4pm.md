@@ -14,6 +14,10 @@ locationMapLink: https://maps.app.goo.gl/Np4TTr94BLU95epT9
 locationEmbeddedSrc: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5556.9889391796905!2d-96.56694760165307!3d40.84502468735028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1697312318171!5m2!1sen!2sus"
   '
 ---
-Luke will have a couple different species and demonstrate the steps for successfully producing a liquid culture. A fundamental knowledge of fungi and fungal terminology is highly recommended, and a basic knowledge of cultivating mushrooms is suggested. Please bring something to take notes with. This event will be indoors.
+This workshop will go over how to make liquid culture of edible and medicinal mushrooms. We will go over making the liquid, culture media, how to make modified lids for liquid cultures, how to make grain spawn, and how to make bags with hardwood fuel pellets and nutrified sawdust.
+
+A fundamental knowledge of fungi and fungal terminology is highly recommended, and a basic knowledge of cultivating mushrooms is suggested. Please bring something to take notes with. This event will be indoors. 
+
+Luke will have liquid cultures of blue oyster mushrooms and lion's mane for sale for $15 each.
 
 Luke Norris is a professional beekeeper. He is the Apiary Manager at UNL Bee Lab. He has been a hobby mycologist since 2016. He grows edible and medicinal mushrooms as a hobby and likes to go foraging for wild mushrooms.
