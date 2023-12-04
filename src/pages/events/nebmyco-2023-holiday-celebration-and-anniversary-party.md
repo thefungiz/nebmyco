@@ -14,6 +14,7 @@ locationAddress: |-
   Ashland, NE 68003
 locationMapLink: https://maps.app.goo.gl/mY9J7RDNbYY6qbK3A
 locationEmbeddedSrc: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d447.4349552837648!2d-96.30651811245858!3d41.025877281244824!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8794041f22fc02db%3A0x35cf8ec4897f42b6!2s18090%20Park%20Dr%2C%20Ashland%2C%20NE%2068003!5e0!3m2!1sen!2sus!4v1701534541267!5m2!1sen!2sus
+rsvpLink: https://forms.gle/MnfF5u2Pnk2Qte1o9
 ---
 Main meal catered by Open Harvest, please bring a side dish or dessert to share. BYOB.
 

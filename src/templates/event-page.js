@@ -18,7 +18,8 @@ const EventTemplate = ({
   locationAddress,
   locationMapLink,
   locationEmbeddedSrc,
-  showImage
+  showImage,
+  rsvpLink,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -48,6 +49,12 @@ const EventTemplate = ({
               <>
                 <h3>When</h3>
                 <p>{formattedDateTime}</p>
+              </>
+            )}
+            {rsvpLink && (
+              <>
+                <h3>RSVP</h3>
+                <a class="myco-link" target="_blank" href={rsvpLink}>Click here to RSVP</a>
               </>
             )}
             <h3>Summary</h3>
@@ -80,6 +87,7 @@ EventTemplate.propTypes = {
   locationMapLink: PropTypes.string,
   locationEmbeddedSrc: PropTypes.string,
   showImage: PropTypes.bool,
+  rsvpLink: PropTypes.string,
 }
 
 const Event = ({ data }) => {
@@ -100,6 +108,7 @@ const Event = ({ data }) => {
         locationMapLink={post.frontmatter.locationMapLink}
         locationEmbeddedSrc={post.frontmatter.locationEmbeddedSrc}
         showImage={post.frontmatter.showImage}
+        rsvpLink={post.frontmatter.rsvpLink}
       />
     </Layout>
   )
@@ -124,6 +133,7 @@ export const pageQuery = graphql`
         locationName
         locationAddress
         locationMapLink
+        rsvpLink
         locationEmbeddedSrc
         showImage
         title
