@@ -3,7 +3,7 @@ templateKey: event-page
 title: Britt Bunyard Amanitas Lecture - March 21st, 2024
 date: 2024-03-21T16:34:00.936Z
 description: Join us on March 21st for an expert lecture on the genus Amanita
-  with Britt Bunyard! Please arrive on time so we can start at 6 PM.
+  with Britt Bunyard! This is a great opportunity to purchase a copy of "Amanaitas of North America" and have it autographed. Fungi Magazines will also be available. Dontations welcome! Suggested donation $1-20. Please arrive on time so we can start at 6 PM.
 featuredimage: /img/britt-bunyard-2023-cropped-wpa-1-1-.webp
 showImage: true
 rsvpLink: https://forms.gle/Btnr7kbncgvczr9K6
