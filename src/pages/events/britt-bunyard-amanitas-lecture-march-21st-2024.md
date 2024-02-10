@@ -1,9 +1,18 @@
 ---
 templateKey: event-page
-title: Britt Bunyard Amanitas Lecture - March 21st, 2024
+title: Britt Bunyard - How to Know the Amanita Species of Central North America
+  - March 21st, 2024
 date: 2024-03-21T16:34:00.936Z
-description: Join us on March 21st for an expert lecture on the genus Amanita
-  with Britt Bunyard! This is a great opportunity to purchase a copy of "Amanitas of North America" and have it autographed by the author. Fungi Magazines will also be available. Donations are welcome! Suggested donation $1-20. Please arrive on time so we can start at 6 PM.
+description: >-
+  Perhaps the most famous of all groups of mushrooms is the genus Amanita. These
+  mushrooms are some of the most recognizable from their appearances in video
+  games, movies, and folklore. Amanita is an enormous genus and is very common
+  in every type of forest around the globe. Nearly every species of Amanita is
+  mycorrhizal and they can occur with a broad range of conifers and hardwoods.
+
+  In general, Amanitas are pretty large mushrooms with caps about 4–6 inches wide and stalks 6–10 inches long for many species. Though many Amanita are edible—some, wildly popular in some parts of the world—there are toxic species and a handful that can be lethal. Because of the very real hazard of death, most experts agree that the Amanitas should be the first group that all mycophiles become familiar with. However, most feel this group to be daunting as it includes so many species. This need not be the case. Indeed, this group is just about the easiest to become an expert with (seriously!) … and this presentation will show you how with many examples from common species in your region.
+
+  Much of the information and images in this presentation are based on the brand-new book Amanitas of North America (2020) by Bunyard and Justice; available at fungimag.com.
 featuredimage: /img/britt-bunyard-2023-cropped-wpa-1-1-.webp
 showImage: true
 rsvpLink: https://forms.gle/Btnr7kbncgvczr9K6
@@ -16,6 +25,10 @@ tags:
   - lecture
   - amanitas
 ---
+Join us on March 21st for an expert lecture on the genus Amanita with Britt Bunyard! This is a great opportunity to purchase a copy of "Amanitas of North America" and have it autographed by the author. Fungi Magazines will also be available. Donations are welcome! Suggested donation $1-20. Please arrive on time so we can start at 6 PM. 
+
+M﻿ore about Britt:
+
 Britt Bunyard, PhD, is the Founder, Publisher, and editor-in-chief of the mycology journal, Fungi. Britt is a former university professor and has published over 100 academic and popular science papers. He has served as an editor for mycological and entomological research journals, and mushroom guide books. Britt has collected fungi and lectured throughout North and South America, Europe, and Asia. A popular evangelizer on all things fungal, Britt has been featured on the BBC World Service's Newshour, NPR's All Things Considered, PBS's NOVA and Wisconsin Foodie television programs; and interviewed or quoted in Discover magazine, The Atlantic, National Geographic, Vox, Vogue, Forbes, Saveur, Eating Well, Hobby Farm, Women's World, and other magazines and newspapers. 
 
 
