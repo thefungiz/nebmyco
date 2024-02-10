@@ -1,7 +1,6 @@
 ---
 templateKey: event-page
 title: Britt Bunyard - How to Know the Amanita Species of Central North America
-  - March 21st, 2024
 date: 2024-03-21T16:34:00.936Z
 description: >-
   Perhaps the most famous of all groups of mushrooms is the genus Amanita. These
