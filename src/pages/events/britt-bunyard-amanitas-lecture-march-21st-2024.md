@@ -10,7 +10,9 @@ description: >-
   in every type of forest around the globe. Nearly every species of Amanita is
   mycorrhizal and they can occur with a broad range of conifers and hardwoods.
 
+
   In general, Amanitas are pretty large mushrooms with caps about 4–6 inches wide and stalks 6–10 inches long for many species. Though many Amanita are edible—some, wildly popular in some parts of the world—there are toxic species and a handful that can be lethal. Because of the very real hazard of death, most experts agree that the Amanitas should be the first group that all mycophiles become familiar with. However, most feel this group to be daunting as it includes so many species. This need not be the case. Indeed, this group is just about the easiest to become an expert with (seriously!) … and this presentation will show you how with many examples from common species in your region.
+
 
   Much of the information and images in this presentation are based on the brand-new book Amanitas of North America (2020) by Bunyard and Justice; available at fungimag.com.
 featuredimage: /img/britt-bunyard-2023-cropped-wpa-1-1-.webp
