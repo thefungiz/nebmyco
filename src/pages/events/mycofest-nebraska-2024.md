@@ -14,12 +14,15 @@ tags:
   - mycofest
 ---
 🌿 Date: Sunday, October 20th, 2024
+
 📍 Location: The Beautiful Prairie Landscape of Red Road Herbs
+
 🎫 Tickets: Just $40 – Limited Availability!
 
 Immerse yourself in nature and explore the fascinating world of mushrooms at MycoFest Nebraska 2024, set on the breathtaking acreage of Rachel and Michael Liester, renowned for their Prairie Herbalist Conference. Their intimate and lovingly tended landscape, filled with herbs and vibrant life, will transport you to a world where simplicity and romance meet. Rachel, a passionate herbalist, will lead a special tour of her herb gardens, while Michael’s dedication to the land ensures the space is perfectly maintained for a serene and beautiful experience.
 
 This unique event is designed for naturalists, yogis, and, most importantly, mushroom enthusiasts! Our full-day program will feature 8+ incredible presenters sharing their expertise in:
+
 🍄 Foraging and identifying wild mushrooms
 
 🍄 Understanding toxicology and what to avoid
@@ -29,6 +32,7 @@ This unique event is designed for naturalists, yogis, and, most importantly, mus
 🍄 Dyeing natural fibers with mushroom-based dyes
 
 In addition to mushroom-focused presentations, you’ll also have the chance to connect more deeply with nature through:
+
 🌸 Herbalism tour with Rachel Liester
 
 🌲 Forest bathing session
