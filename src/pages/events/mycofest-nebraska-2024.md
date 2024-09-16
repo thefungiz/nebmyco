@@ -4,7 +4,7 @@ title: MycoFest Nebraska 2024
 date: 2024-10-20T21:31:24.126Z
 description: Join Us for MycoFest Nebraska 2024 – A Celebration of Mushrooms, Nature, and Wellness!
 featuredimage: /img/mycofest.jpg
-showImage: false
+showImage: true
 formattedDateTime: Sunday, October 20th, 2024 10 am - 4 pm
 locationName: Red Road Herbs - Retreat & Learning Center, LLC
 locationAddress: 57190 835th Ave, Stanton, NE 68779
@@ -13,12 +13,6 @@ locationEmbeddedSrc: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.
 tags:
   - mycofest
 ---
-🌿 Date: Sunday, October 20th, 2024
-
-📍 Location: The Beautiful Prairie Landscape of Red Road Herbs
-
-🎫 Tickets: Just $40 – Limited Availability!
-
 Immerse yourself in nature and explore the fascinating world of mushrooms at MycoFest Nebraska 2024, set on the breathtaking acreage of Rachel and Michael Liester, renowned for their Prairie Herbalist Conference. Their intimate and lovingly tended landscape, filled with herbs and vibrant life, will transport you to a world where simplicity and romance meet. Rachel, a passionate herbalist, will lead a special tour of her herb gardens, while Michael’s dedication to the land ensures the space is perfectly maintained for a serene and beautiful experience.
 
 This unique event is designed for naturalists, yogis, and, most importantly, mushroom enthusiasts! Our full-day program will feature 8+ incredible presenters sharing their expertise in:
@@ -61,10 +55,6 @@ Help grow Nebraska’s mushroom culture and support local mushroom research by a
 
 This is an incredible opportunity to engage with some of Nebraska’s most passionate and knowledgeable people in the fields of mycology and wellness.
 
-Don’t miss out! Secure your tickets now:
+Don’t miss out! Secure your tickets now! We can’t wait to see you at MycoFest Nebraska 2024!
 
 <div style="display:flex;background-color:green;color:white;justify-content: center;border-radius: 30px;height: 3em;align-items: center;"><a style="color:white" href="https://givebutter.com/nXGVOi">Purchase Tickets Now!</a></div>
-
-We can’t wait to see you at MycoFest Nebraska 2024!
-
-![Flier](/img/mycofest.jpg)
