@@ -63,7 +63,7 @@ This is an incredible opportunity to engage with some of Nebraska’s most passi
 
 Don’t miss out! Secure your tickets now:
 
-<div style="display:flex;background-color:green;color:white;justify-content: center;border-radius: 30px;height: 3em;align-items: center;"><a href="https://givebutter.com/nXGVOi">Purchase Tickets Now!</a></div>
+<div style="display:flex;background-color:green;color:white;justify-content: center;border-radius: 30px;height: 3em;align-items: center;"><a style="color:white" href="https://givebutter.com/nXGVOi">Purchase Tickets Now!</a></div>
 
 We can’t wait to see you at MycoFest Nebraska 2024!
 
