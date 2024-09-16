@@ -3,7 +3,7 @@ templateKey: event-page
 title: MycoFest Nebraska 2024
 date: 2024-10-20T21:31:24.126Z
 description: Join Us for MycoFest Nebraska 2024 – A Celebration of Mushrooms, Nature, and Wellness!
-featuredimage: /img/file-cmkgzain7b3mo06amcxweqbs.jpg
+featuredimage: /img/mycofest.jpg
 showImage: true
 formattedDateTime: Sunday, October 20th, 2024 10 am - 4 pm
 locationName: Red Road Herbs - Retreat & Learning Center, LLC
