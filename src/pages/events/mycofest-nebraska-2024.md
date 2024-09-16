@@ -17,7 +17,7 @@ tags:
 
 📍 Location: The Beautiful Prairie Landscape of Red Road Herbs
 
-🎫 Tickets: Just $40 – Limited Availability!
+🎫 Tickets: Just $40 – Limited Availability! Click [here](https://givebutter.com/nXGVOi) to purchase.
 
 Immerse yourself in nature and explore the fascinating world of mushrooms at MycoFest Nebraska 2024, set on the breathtaking acreage of Rachel and Michael Liester, renowned for their Prairie Herbalist Conference. Their intimate and lovingly tended landscape, filled with herbs and vibrant life, will transport you to a world where simplicity and romance meet. Rachel, a passionate herbalist, will lead a special tour of her herb gardens, while Michael’s dedication to the land ensures the space is perfectly maintained for a serene and beautiful experience.
 
