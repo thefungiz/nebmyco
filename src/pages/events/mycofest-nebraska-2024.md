@@ -61,9 +61,8 @@ Help grow Nebraska’s mushroom culture and support local mushroom research by a
 
 This is an incredible opportunity to engage with some of Nebraska’s most passionate and knowledgeable people in the fields of mycology and wellness.
 
-Don’t miss out! Visit the Nebraska Mycological Society’s website to secure your tickets now:
+Don’t miss out! Secure your tickets now:
 
-👉
-https://www.nebmyco.com/events/mycofest-nebraska-2024/
+👉 Click [here](https://givebutter.com/nXGVOi) to purchase tickets.
 
 We can’t wait to see you at MycoFest Nebraska 2024!
