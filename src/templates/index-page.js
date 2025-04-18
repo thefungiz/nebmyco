@@ -43,7 +43,7 @@ const IndexPageTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div>
-                  <p>👉 Submit a mushroom identification request <a class="myco-link" target="_blank" href="https://forms.gle/Lz6f6n63Pn4S3YBM9">here</a></p>
+                  <p>👉 Submit a mushroom identification request <a class="myco-link" target="_blank" rel="noreferrer" href="https://forms.gle/Lz6f6n63Pn4S3YBM9">here</a></p>
                   <Features gridItems={intro.blurbs} />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">

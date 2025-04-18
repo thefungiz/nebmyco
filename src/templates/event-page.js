@@ -54,7 +54,7 @@ const EventTemplate = ({
             {rsvpLink && (
               <>
                 <h3>RSVP</h3>
-                <a class="myco-link" target="_blank" href={rsvpLink}>Click here to RSVP</a>
+                <a class="myco-link" target="_blank" rel="noreferrer" href={rsvpLink}>Click here to RSVP</a>
               </>
             )}
             <h3>Summary</h3>
