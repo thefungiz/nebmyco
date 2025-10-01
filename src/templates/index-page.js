@@ -45,7 +45,7 @@ const IndexPageTemplate = ({
                   </div>
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      Nebraska Mushrooms Website 
+                      Nebraska Mushrooms Website <img src="https://nebraskamushrooms.org/favicon.svg" style="display:inline;height:auto;width:100px;" alt="Nebraska Mushrooms Logo" />
                     </h3>
                     <div className="column is-12">
                       Click <Link to="https://www.nebraskamushrooms.org">here</Link> to check out our citizen science driven website containing mushroom profiles from 250+ known species surveyed from the state of Nebraska.
