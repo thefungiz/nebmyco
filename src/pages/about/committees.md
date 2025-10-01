@@ -1,12 +1,12 @@
 ---
 templateKey: about-page
 path: /about/committees
-image: /img/people/pp_foray_2021.webp
+image: /img/img_0472.webp
 title: Committees 🍄
 description: Learn about the committees of the Nebraska Mycological Society and how they help our community thrive.
 ---
 
-### Our Committees
+### Our Committees 🍄
 
 The Nebraska Mycological Society is made possible by the dedication of volunteers who guide our activities through committees. Each committee has a special focus, helping us grow as a community, share knowledge, and inspire curiosity about fungi. These committees are open to members who want to get more involved, learn new skills, and contribute to our mission.
 
@@ -43,6 +43,6 @@ The Publishing Committee oversees our publications, such as *The Spore*, our qua
 ---
 
 ### Get Involved
-If you are interested in joining one of these committees or learning more, we encourage you to reach out. Every contribution, big or small, helps our society thrive and continue its mission of education, conservation, and appreciation of fungi.
+If you are interested in joining one of these committees or learning more, we encourage you to reach out. Every contribution, big or small, helps our society thrive and continue its mission of education, conservation, and appreciation of fungi. Feel free to [join](/join) the club or each out to us [here](https://forms.gle/rXPAqG81yALSjDoi6).
 
 ![Committee Work](/img/people/under_a_mushroom.webp "Committee Work")
