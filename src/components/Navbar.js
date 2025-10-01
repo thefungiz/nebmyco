@@ -1,4 +1,4 @@
-import React from 'react'
+=import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/NMS-trans.png'
 
@@ -69,6 +69,9 @@ const Navbar = class extends React.Component {
               </Link>
               <Link className="navbar-item" to="/events">
                 <h2>Events</h2>
+              </Link>
+              <Link className="navbar-item" to="/about/committees">
+                <h2>Committees</h2>
               </Link>
               <Link className="navbar-item" to="/newsletter">
                 <h2>Newsletter</h2>
