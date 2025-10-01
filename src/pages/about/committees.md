@@ -1,7 +1,5 @@
-Here’s a complete draft for your new Committees page in the same style as your current Gatsby React markdown pages. It follows the same frontmatter format, gives a brief intro for the page, and then breaks down each committee in clear, public-friendly language.
-
 ---
-templateKey: committees-page
+templateKey: about-page
 path: /about/committees
 image: /img/people/pp_foray_2021.webp
 title: Committees 🍄
