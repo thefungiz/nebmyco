@@ -1,4 +1,4 @@
-=import React from 'react'
+import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/NMS-trans.png'
 
