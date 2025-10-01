@@ -44,14 +44,14 @@ const IndexPageTemplate = ({
                     </div>
                   </div>                 
                   <Features gridItems={intro.blurbs} />
-                  <div className="column is-12 tile box">
+                  <div className="column is-12 tile box notification">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Mushroom Guide 🍄‍🟫
                     </h3>
                     <div className="column is-12">
                       <p>Check out our citizen science-driven website containing mushroom profiles from 250+ known species surveyed from the state of Nebraska.</p>
                       <div className="has-text-centered">
-                        <Link to="https://www.nebraskamushrooms.org">Access NebraskaMushrooms.org <img src="https://nebraskamushrooms.org/favicon.svg" style={{ display: 'inline', height: 'auto', width: '3em' }} alt="Nebraska Mushrooms Logo" /></Link>
+                        <Link className="btn" to="https://www.nebraskamushrooms.org">Access NebraskaMushrooms.org <img src="https://nebraskamushrooms.org/favicon.svg" style={{ display: 'inline', height: 'auto', width: '3em' }} alt="Nebraska Mushrooms Logo" /></Link>
                       </div>
                     </div>
                   </div>
