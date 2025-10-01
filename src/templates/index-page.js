@@ -48,7 +48,7 @@ const IndexPageTemplate = ({
                       Nebraska Mushrooms Website 
                     </h3>
                     <div className="column is-12">
-                      Clic#k <Link to="https://www.nebraskamushrooms.org">here</Link> to check out our citizen science driven website containing mushroom profiles from 250+ known species surveyed from the state of Nebraska.
+                      Click <Link to="https://www.nebraskamushrooms.org">here</Link> to check out our citizen science driven website containing mushroom profiles from 250+ known species surveyed from the state of Nebraska.
                     </div>
                   </div>                                   
                   <Features gridItems={intro.blurbs} />
