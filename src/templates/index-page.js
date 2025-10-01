@@ -43,7 +43,14 @@ const IndexPageTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div>
-                  <p>👉 Submit a mushroom identification request <a class="myco-link" target="_blank" rel="noreferrer" href="https://forms.gle/Lz6f6n63Pn4S3YBM9">here</a></p>
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      Nebraska Mushrooms Website 
+                    </h3>
+                    <div className="column is-12">
+                      Clic#k <Link to="https://www.nebraskamushrooms.org">here</Link> to check out our citizen science driven website containing mushroom profiles from 250+ known species surveyed from the state of Nebraska.
+                    </div>
+                  </div>                                   
                   <Features gridItems={intro.blurbs} />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
