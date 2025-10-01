@@ -45,4 +45,4 @@ The Publishing Committee oversees our publications, such as *The Spore*, our qua
 ### Get Involved
 If you are interested in joining one of these committees or learning more, we encourage you to reach out. Every contribution, big or small, helps our society thrive and continue its mission of education, conservation, and appreciation of fungi. Feel free to <a style="color:blue; font-weight:bold" target="_blank" href="/join">join</a> the club or each out to us <a style="color:blue; font-weight:bold" target="_blank" href="https://forms.gle/rXPAqG81yALSjDoi6">here</a>.
 
-![Committee Work](/img/people/under_a_mushroom.webp "Committee Work")
+![Committees](/img/img_2911.webp)
