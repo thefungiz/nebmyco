@@ -44,6 +44,7 @@ const IndexPageTemplate = ({
                     </div>
                   </div>                 
                   <Features gridItems={intro.blurbs} />
+                  <hr />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Upcoming Events 🍄
@@ -55,6 +56,7 @@ const IndexPageTemplate = ({
                       </Link>
                     </div>
                   </div>
+                  <hr />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories 🍄
@@ -66,6 +68,7 @@ const IndexPageTemplate = ({
                       </Link>
                     </div>
                   </div>
+                  <hr />
                   <div className="column is-12 tile box notification">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Mushroom Guide
